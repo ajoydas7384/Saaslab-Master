@@ -1,0 +1,2 @@
+font-family: 'Gentium Book Basic', serif;
+font-family: 'Poppins', sans-serif
