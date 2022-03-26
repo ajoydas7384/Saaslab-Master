@@ -1,105 +1,10 @@
-@font-face {
-	font-family: GentiumBookBasic-Bold;
-	src : url(../fonts/GentiumBookBasic-Bold.ttf);
-}
-
-@font-face {
-	font-family: GentiumBookBasic-BoldItalic;
-	src : url(../fonts/GentiumBookBasic-BoldItalic.ttf);
-}
-
-@font-face {
-	font-family: GentiumBookBasic-Italic;
-	src : url(../fonts/GentiumBookBasic-Italic.ttf);
-}
-
-@font-face {
-	font-family: GentiumBookBasic-Regular;
-	src : url(../fonts/GentiumBookBasic-Regular.ttf);
-}
-
-@font-face {
-	font-family: Poppins-Bold;
-	src : url(../fonts/Poppins-Bold.ttf);
-}
-
-@font-face {
-	font-family:Poppins-Regular ;
-	src : url(../fonts/Poppins-Regular.ttf);
-}
-
-@font-face {
-	font-family: Poppins-SemiBold;
-	src : url(../fonts/Poppins-SemiBold.ttf);
-}
-
-@font-face {
-	font-family: Poppins-Light;
-	src : url(../fonts/Poppins-Light.ttf);
-}
-
-@font-face {
-	font-family: Poppins-thin;
-	src : url(../fonts/Poppins-thin.ttf);
-}
-
-@font-face {
-	font-family: Poppins-Medium;
-	src : url(../fonts/Poppins-Medium.ttf);
-}
-
-@font-face {
-	font-family: roboto-regular;
-	src : url(../fonts/roboto-regular.ttf);
-}
-
-@font-face {
-	font-family: roboto-medium;
-	src : url(../fonts/roboto-medium.ttf);
-}
-
-@font-face {
-	font-family: roboto-light;
-	src : url(../fonts/roboto-light.ttf);
-}
-
 
 body {
-	width: 100%;
 	margin: 0 auto;
 }
 
 img {
-	width: 100%;
-}
-
-
-p {
-	font-family: poppins-regular;
-	/*color: #737982;*/
-	font-size: 14px;
-	line-height: 22px;
-	margin: 0;
-	/*padding-bottom: 10px;*/
-}
-
-h2 {
-	font-family: GentiumBookBasic-Bold;
-	padding-bottom: 10px;
-	font-size: 30px;
-	margin: 0;
-}
-
-h4 {
-	font-family: poppins-regular;
-	padding-bottom: 10px;
-	margin: 0;
-	font-size: 18px;
-}
-
-i {
-	font-size: 30px;
-	padding-bottom: 10px;
+	max-width: 100%;
 }
 
 a {
@@ -113,20 +18,7 @@ ul {
 
 ul li {
 	display: inline-block;
-	margin: 0px 5px;
-}
-
-/*button {
-	padding: 10px 45px;
-    border: none;
-    background: #0dcaf0;
-    color: white;
-    font-family: 'GentiumBookBasic-Bold';
-    margin-top: 32px;
-} 
-*/
-.container {
-	width: 80%;
+	margin-left: 20px;
 }
 
 .about-area {
@@ -134,19 +26,223 @@ ul li {
 	padding: 40px 0;
 }
 
-
 .header-area {
-	padding-bottom: 60px;
+	margin-bottom: 120px;
 }
 
-.header-banner h1 {
-	padding-bottom: 20px;
-	font-family: GentiumBookBasic-Bold;
+.description-title {
+	font-family: 'Gentium Book Basic', sans-serif;
+    padding-bottom: 5px;
+    font-size: 25px;
+    padding-top: 30px;
+	font-weight: 600;
+}
+
+.header-title {
+	margin-bottom: 40px;
+	font-family: Gentium Book Basic, sans-serif;
+	color: white;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.header-subtitle {
+	font-size: 30px;
+	font-family: Gentium Book BAsic, sans-serif;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.title {
+	font-family: gentium book basic, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 25px;
+	color: #37404d;
+}
+
+.sub-title {
+	font-size: 16px;
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	margin-bottom: 50px;
+	color: #8f949b;
+	line-height: 30px;
+}
+
+.banner-title {
+	font-family: gentium book basic, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+	color: #444d59;
+}
+
+.banner-subtitle {
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #8f949b;
+	margin-bottom: 40px;
+}
+
+.product-title {
+	font-family: Gentium book basic, sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.product-subtitle {
+	font-family: poppins, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #b8bcc0;
+	line-height: 25px;
+}
+
+.employe-position {
+	font-size: 12px;
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	color: #5d646f;
+	margin-bottom: 15px;
+}
+
+.video-play-btn {
+	height: 140px;
+	position: relative;
+	margin-bottom: 140px;
+	margin-top: 90px;
+}
+
+.comment-btn {
+	padding: 15px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background-color: transparent;
+	font-family: poppins, sans-serif;
+	font-weight: 600;
+	color: gray;
+}
+
+.comment-btn:hover {
+	color: white;
+	background: gray;
+	transition: .5s;
+}
+
+.previous-btn {
+	margin-top: 0;
+    padding: 10px 25px;
+    font-family: poppins, sans-serif;
+	font-weight: 600;
+    border: none;
+    color: #8b8f95;
+}
+
+.previous-btn i {
+	margin-right: 10px;
+}
+
+.next-btn i {
+	margin-left: 10px;
+}
+
+.send-btn {
+	padding: 10px;
+	width: 50%;
+	background: #007ea7;
+    color: white;
+    font-family: 'Poppins' sans-serif;
+	font-weight: 600;
+    border: none;
+    margin-bottom: 60px;
+}
+
+.next-btn {
+	margin-top: 0;
+	padding: 10px 45px;
+	border: none;
+	font-family: poppins, sans-serif;
+	font-weight: 600;
+	color: #8b8f95;
+}
+
+.log-in-btn {
+    padding: 15px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    font-family: 'Gentium Book Basic', sans-serif;
+    border-radius: 5px;
+	width: 35%;
+	margin: 5px;
+}
+
+.log-in-btn:hover {
+	background: #3bd3fb;
+	border: 1px solid white;
+	font-weight: 600;
+}
+
+.started-btn {
+	padding: 15px;
+    color: white;
+    width: 40%;
+    background: #2bd9fe;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Gentium Book Basic', sans-serif;
+    font-weight: 600;
+	border: 1px solid transparent;
+}
+
+.started-btn:hover {
+	background: white;
+	border: 1px solid #2bd9fe;
+	color: #2bd9fe;
+}
+
+.add-to-cart {
+	position: relative;
+	color: white;
+}
+.add-to-cart::after {
+	content: '1';
+    height: 20px;
+    width: 20px;
+    background: red;
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    font-family: poppins, sans-serif;
+    top: -10px;
+    border: 2px solid lightblue;
+    left: 10px;
+    padding: 2px;
 	color: white;
 }
 
+.bdr-btn {
+	position: relative;
+}
+
+.bdr-btn::before {
+	content: '';
+	border-bottom: 2px solid white;
+	position: absolute;
+    height: 2px;
+    width: 100px;
+    top: 40px;
+    left: 44%;
+}
+
+
 .about-area span {
-	font-family: poppins-light;
+	font-family: poppins, sans-serif;
+	font-weight: 300;
 }
 
 .about-area ul {
@@ -155,54 +251,50 @@ ul li {
 
 .about-area ul li {
 	display: inline-block;
+	margin-left: 30px;
+}
+
+.banner-area {
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 
 .about-area ul li a {
 	text-decoration: none;
 	color: white;
-	margin: 0 10px;
+	font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 400;
 }
 
-.about-area h2 {
-	font-family: gentiumbookbasic-bold;
-	color: white;
-}
-
-
-.about-area p {
-	color: white;
-	font-family: poppins-regular;
-}
-
-.video-play-btn {
-	height: 200px;
-	position: relative;
+.about-area ul li a:hover {
+	color: #34dbfe;
 }
 
 .layer-one {
 	background: #56b5cd;
 	border-radius: 50%;
-	height: 120px;
-	width: 120px;
-	line-height: 120px;
+	height: 136px;
+	width: 136px;
+	line-height: 136px;
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-top: -60px;
-	margin-left: -60px;
+	margin-top: -68px;
+	margin-left: -68px;
 }
 
 .layer-two {
 	background: #6fc0d4;
     border-radius: 50%;
-    height: 90px;
-    width: 90px;
-    line-height: 90px;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
     position: absolute;
     left: 50%;
     top: 50%;
-    margin-top: -45px;
-    margin-left: -45px;
+    margin-top: -50px;
+    margin-left: -50px;
 }
 
 .layer-three {
@@ -225,111 +317,112 @@ ul li {
 	top: 50%;
 	left: 50%;
 	margin-top: -16px;
-	margin-left: -13px;
+	margin-left: -8px;
 	padding: 0;
+	font-size: 30px;
 }
-
-/*##############################################################*/
-
 
 .about-description {
-	padding: 60px 0;
+	margin-top: 70px;
 }
 
-.about-description  p {
-	padding-bottom: 60px;
+.about-support i {
+	font-size: 45px;
+	margin-bottom: 20px;
 }
-
-.about-description h2 {
-	font-family: gentiumbookbasic-bold;
-}
-
-.about-description h4 {
-	font-family: poppins-regular;
-}
-
-.about-support p {
-	padding-bottom: 40px;
-	font-family: poppins-light;
-	font-size: 12px;
-}
-
-
-/*######################################################################*/
 
 
 .about-project-details {
 	background-color: #38aecc;
-	padding: 60px 0;
+	padding: 70px 0;
 }
 
-.about-project-details button {
-	padding: 10px 40px;
+.about-btn {
+	padding: 15px 40px;
 	border: none;
 	background: #03c5f8;
 	color: white;
-	font-family: GentiumBookBasic-regular;
+	font-family: Gentium Book Basic, sans-serif;
+	font-weight: 400;
 	margin-top: 40px;
+	font-size: 16px;
+	border: 1px solid transparent;
 }
 
-.about-product-missions button {
-	padding: 10px 40px;
-	border: none;
-	background: #03c5f8;
-	color: white;
-	font-family: GentiumBookBasic-regular;
-	margin-top: 40px;
-}
-
-
-.about-project-details h2 {
-	color: white;
-}
-
-.about-project-details p {
-	color: #c4e7f0;
-	line-height: 25px;
-	font-family: poppins-light;
+.about-btn:hover {
+	color: #03c5f8;
+	background: white;
+	border: 1px solid #03c5f8;
 }
 
 .project-right img {
-	margin-left: 164px;
+	margin-left: 302px;
 }
 
-/*####################################################################*/
+.accordion-item {
+	border: 1px solid #03c5f8;
+	border-top: 1px solid #03c5f8 !important;
+	margin-bottom: 10px;
+}
+
+.accordion-item p {
+	margin-bottom: 0;
+	width: 100%;
+}
+
+.accordion-body {
+	padding: 0;
+    margin-left: 15px;
+    color: black;
+    font-weight: 600;
+    font-family: poppins, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.accordion-button {
+	padding: 10px;
+	color: black;
+	font-weight: 600;
+}
+
+.accordion-button:focus {
+	border: 0;
+	box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+	color: #03c5f8;
+	background: none;
+	box-shadow: none;
+	font-size: 16px;
+}
+
+.accordion-button.collapsed:focus i {
+	transform: rotate(360deg);
+}
+
+.accordion-button:focus i {
+	transform: rotate(90deg);
+}
 
 .about-product-missions {
-	padding: 60px 0;
-}
-
-.about-product-missions h2 {
-	padding-bottom: 20px;
+	margin: 70px 0;
 }
 
 .project-left img {
-	margin-left: -164px;
+	margin-left: -305px;
 }
-
-
-/*###########################################################*/
-
 
 .about-choose-us {
 	background-color: #38aecc;
-	padding: 60px 0;
+	padding: 70px 0;
 }
 
 .about-choose-us h2 {
 	color: white;
-}
-
-.about-choose-us h4 {
-	font-family: gentiumbookbasic-bold;
-}
-
-.choose-us-head p {
-	color: #c4e7f0;
-	padding-bottom: 50px;
 }
 
 .about-box {
@@ -338,35 +431,25 @@ ul li {
     border-right: 3px solid #eaeaea;
 }
 
-.about-box p {
-	font-size: 12px;
-}
-
 .about-box i {
 	border: 1px solid #eaeaea;
     border-radius: 50%;
-    margin-bottom: 30px;
-    height: 75px;
-    width: 75px;
+    margin-bottom: 50px;
+    height: 90px;
+    width: 90px;
     text-align: center;
-    line-height: 75px;
+    line-height: 90px;
+	font-size: 35px;
 }
-
-.border-right {
-	border: none;
-}
-
-/*##########################################################*/
-
 
 .about-team {
-	padding: 50px 0;
+	margin: 70px 0;
 }
 
 .team-box {
 	border: 1px solid #c3bebe;
 	margin: 0 20px;
-	padding: 0 25px;
+	padding: 0 40px;
 }
 
 .team-box ul li {
@@ -383,19 +466,10 @@ ul li {
     border-radius: 50%;
 }
 
-.our-team p {
-	padding-bottom: 100px;
-}
-
 .about-team Img {
 	width: 50%;
 	margin-top: -60px;
     padding-bottom: 25px
-}
-
-.about-team h4 {
-	font-family: poppins-regular;
-	padding-bottom: 25px;
 }
 
 .about-slider i {
@@ -408,18 +482,15 @@ ul li {
     line-height: 30px;
 }
 
-
-/*##############################################*/
-
 .copyright {
 	background-color: #7ebce6;
-	padding: 10px 0;
+	padding: 30px 0;
 }
 
 .copyright p {
 	padding: 0;
 	color: white;
-	margin: 10px 0;
+	margin: 0;
 }
 
 .copyright ul {
@@ -431,13 +502,9 @@ ul li {
 }
 
 .header-menu {
-	justify-content: flex-end;
+	float: right;
+	padding: 0;
 }
-
-
-/*############################################################################################################################################################*/
-
-									/*blog-details-area*/
 
 .blog-details-area {
 	background-color: #38aecc;
@@ -447,7 +514,8 @@ ul li {
 .blog-search {
 	padding: 14px 1px 15px 25px;
     border-radius: 50px;
-    font-family: 'Poppins-Regular';
+    font-family: 'Poppins', sans-serif;;
+	font-weight: 400;;
     font-size: 13px;
     border: none;
     width: inherit;
@@ -455,71 +523,14 @@ ul li {
 
 .header-banner span	i {
 	font-size: 12px;
-    padding: 17px 25px 19px 60px;
+    padding: 17px 25px 17px 60px;
     background: white;
     border-radius: 25px;
-    margin-left: -55px;
+    margin-left: -110px;
 }
-
-.blog-details-area p {
-	padding-bottom: 35px;
-}
-
-/*###################################################*/
 
 .blog-description {
-	padding: 60px 0;
-}
-
-.blog-description h4 {
-	font-family: 'GentiumBookBasic-Bold';
-    padding-bottom: 30px;
-    font-size: 22px;
-}
-
-.department h2 {
-	padding: 0;
-	font-size: 20px;
-}
-
-.department p {
-	padding-bottom: 0;
-	font-size: 12px;
-}
-
-.department h6 {
-	padding-bottom: 10px;
-	font-size: 12px;
-	color: #9b9fa6;
-}
-
-.department h6 span {
-	border-left: 2px solid #9b9fa6;
-	margin-left: 5px;
-	padding-left: 5px;
-}
-
-.department-share {
-	border: 2px solid #f6f6f6;
-}
-
-.second-description p {
-	line-height: 30px;
-    padding: 25px 0;
-    font-size: 13px;
-    color: #37404d;
-}
-
-.second-description img {
-	height: 300px;
-}
-
-.third-description p {
-	padding: 25px 40px;
-    font-size: 18px;
-    font-family: 'GentiumBookBasic-italic';
-    text-align: center;
-    line-height: 30px;
+	margin: 70px 0;
 }
 
 .video-container iframe {
@@ -528,43 +539,33 @@ ul li {
 
 .description-image {
 	position: relative;
-	height: 300px;
+	height: 500px;
+	background-image: url(../images/thumbnail.png);
 }
 
-.forth-description p {
-	padding: 10px 0;
-	line-height: 30px;
+.share {
+	border: 2px solid #f6f6f6;
 }
 
-.forth-description h6 {
-	font-family: poppins-regular;
-	font-size: 13px;
-	padding: 20px 0;
-}
-
-.forth-description span {
-	color: #8b95c9;
-	font-family: poppins-semibold;
-	margin-left: 10px;
-}
-
-.department-share i {
+.share i {
     margin: 0;
     padding: 8px 20px;
     font-size: 20px;
     color: #8b95c9;
 }
 
-.blog-description textarea {
+.textarea {
 	padding: 10px 20px;
     color: #989da3;
     background: #fafafa;
     border-radius: 10px;
-    font-family: 'Poppins-Regular';
+    font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+	width: 100%;
 }
 
 .comments-view {
-	padding: 20px 0;
+	margin: 30px 0;
 }
 
 .comments-reply span i {
@@ -575,17 +576,6 @@ ul li {
 .comments-reply span {
 	color: #8b95c9;
 	float: right;
-}
-
-.comments-reply h5 {
-	font-size: 14px;
-    font-family: 'Poppins-SemiBold';
-    margin-bottom: 3px;
-}
-
-.comments-reply h6 {
-	font-size: 11px;
-    font-family: 'Poppins-light'
 }
 
 .share-heart i {
@@ -601,12 +591,25 @@ ul li {
 	padding-left: 100px;
 }
 
+.blog-right-description p {
+	border-bottom: 1px solid lightgray;
+	padding-bottom: 10px;
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	color: dimgray;
+}
+
 input[type=search]{
 	border: none;
 	border-bottom: 1px solid #f2f2f2;
-	font-family: poppins-regular;
+	font-family: poppins, sans-serif;
+	font-weight: 400;
 	width: 100%;
 	margin-bottom: 20px;
+}
+
+input[type=search]:focus-visible {
+	outline: none;
 }
 
 .blog-right-description span {
@@ -618,49 +621,15 @@ input[type=search]{
 	color: #7f7f7f;
 }
 
-.blog-right-description p {
-	border-bottom: 1px solid #f2f2f2;
-	margin-bottom: 20px;
-	font-size: 13px;
-}
-
-.blog-right-description h3 {
-	margin-bottom: 20px;
-    font-size: 25px;
-    font-family: 'GentiumBookBasic-Bold';
-}
-
-
-/*#######################################################################################################################################################################################*/
-
-
-												/*BLOG-PAGES*/
-
-/*.blog-page-description {
-	padding: 60px 0;
-}*/
-
-.blog-page-description img {
-	height: 300px;
-}
-
 .blog-pages-text {
 	box-shadow: 0 0 15px -10px dimgray;
-	margin-top: -70px;
+	margin-top: -100px;
 	background: white;
 	padding: 25px;
 }
 
-.blog-pages-text h2 {
-	font-size: 20px;
-}
-
-.blog-pages-text p {
-	font-size: 13px;
-}
-
 .blog-pages-text a i {
-	font-size: 12px;
+	font-size: 16px;
 	margin-left: 10px;
 }
 
@@ -668,30 +637,33 @@ input[type=search]{
 	float: right;
 }
 
-.blog-pages-text ul li {
-	/*margin:0 10px 20px;*/
-	/*float: right;*/
-}
-
 .blog-pages-text ul li a {
 	color: gray;
 }
 
 .blog-pages-text a {
-	color: #87dad1;
-	font-family: 'GentiumBookBasic-Bold';
+	color: #69d1c5;
+	font-family: 'Gentium Book Basic', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
 }
 
 .blog-pages-text ul li a span {
-	font-family: poppins-semibold;
-	margin-left: 10px;
-	font-size: 13px;
+	font-family: poppins, sans-serif;
+	font-weight: 600;
+	margin-left: 12px;
+	font-size: 12px;
 }
 
 .blog-left-description {
 	border-bottom: 1px solid gray;
     padding-bottom: 40px;
     margin-bottom: 40px;
+}
+
+.blog-left-description img {
+	height: 300px;
+	width: 100%;
 }
 
 .blogpage-slider-button {
@@ -703,46 +675,17 @@ input[type=search]{
 	margin-right: 10px;
 }
 
-.blogpage-previous button {
-	margin-top: 0;
-    padding: 10px 25px;
-    margin-left: -80px;
-    font-family: poppins-semibold;
-    border: none;
-    color: #8b8f95;
-}
-
 .blogpage-next i {
 	font-size: 15px;
 	margin-left: 10px;
 }
 
-.blogpage-next button {
-	margin-top: 0;
-	margin-left: -55px;
-	padding: 10px 45px;
-	border: none;
-	font-family: poppins-semibold;
-	color: #8b8f95;
-}
-
-
 .copyright-border {
 	border-right: 1px solid #9ecdec;
 }
 
-/*################################################################################################################################*/
-
-                              /*CAT OVERVIEW*/
-
-
-.cat-overview li i {
-	color: white;
-	font-size: 15px;
-}
-
 .cart-overview {
-	background: #8785e0;
+	background-color: #8785e0;
 	color: white;
 }
 
@@ -751,23 +694,16 @@ input[type=search]{
 	margin-bottom: 60px;
 }
 
-.overview-product-description img {
-	height: 150px;
-}
-
 .overview-product-name {
 	border-bottom: 1px solid #e9e9e9;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	margin-top: 20px;
 }
 
-.overview-product-name h2 {
-	font-family: poppins-semibold;
-	font-size: 25px;
-}
-
 .overview-product-name span {
-	font-family: poppins-regular;
+	font-family: poppins, sans-serif;
+	font-weight: 400;
+	font-size: 12px;
 }
 
 .overview-product-name span input {
@@ -778,36 +714,15 @@ input[type=search]{
 	border: 1px solid #ededed;
 }
 
-.product-specification h5 {
-	font-family: 'GentiumBookBasic-Bold';
-    font-size: 25px;
-    padding-bottom: 10px;
-}
-
-.product-specification h4 {
-	color: #8785e0;
-}
-
 .product-specification h4 i {
 	font-size: 15px;
     margin-left: 8px;
 }
 
-.product-price {
-	border-bottom: 1px solid gray;
-}
-
-
-.product-specification p {
-	font-family: poppins-regular;
-	font-size: 16px;
-	line-height: 30px;
-}
-
 .product-description {
 	background: whitesmoke;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
 
 .product-details {
@@ -816,16 +731,9 @@ input[type=search]{
 	padding: 40px 40px 0;
 }
 
-
 .cart-amount {
     width: 100%;
     text-align: right;
-    margin-top: -30px;
-}
-
-.bottom-border {
-    border-bottom: 1px solid #ddd;
-    padding: 15px 0;
 }
 
 .cart-amount td {
@@ -835,27 +743,13 @@ input[type=search]{
 .product-description button {
 	margin: 20px 0 50px;
 	float: right;
-    padding: 10px 40px;
+    padding: 15px 40px;
     border: none;
-    font-family: 'Poppins-SemiBold';
+    font-family: 'Poppins', sans-serif;
+	font-weight: 600;
     background: #2f93e2;
     color: white;
-}
-
-/*##################################################################################################################################*/
-
-
-							/*CHECKOUT-PAGES*/
-
-
-.payment-button button {
-	float: right;
-    padding: 10px 40px;
-    border: none;
-    background: #2f93e2;
-    color: white;
-    font-family: 'Poppins-regular';
-    margin: 30px 0 0;
+	border: 1px solid transparent;
 }
 
 .shipping-address {
@@ -879,22 +773,9 @@ input[type=search]{
     background: white;
 }
 
-.checkout-pages textarea {
-	border: 1px solid #e1e3e4;
-	padding: 10px;
-	border-radius: 5px;
-}
-
 .header-area .navbar {
-		float: right;
-		padding: 0;
-	}
-
-
-/*############################################## contact #########################################*/
-
-.contact .cart-overview {
-	background: #79b4db;
+	float: right;
+	padding: 0;
 }
 
 .contact .header-banner i {
@@ -905,14 +786,7 @@ input[type=search]{
     line-height: 50px;
     font-size: 25px;
     margin-bottom: 15px;
-}
-
-.contact .header-banner p {
-	color: #d7e9f4;
-}
-
-.contact .header-banner h6 {
-	font-family: poppins-regular;
+	color: white;
 }
 
 .helpline-area {
@@ -923,36 +797,48 @@ input[type=search]{
 	padding-right: 80px;
 }
 
-.helpline-area h2 {
-	padding-bottom: 11px;
-}
-
-.helpline-left p {
-	padding-bottom: 30px;
-}
-
-.helpline-left label {
-	font-family: 'Poppins-light';
-    font-size: 15px;
-    margin: 0;
-    padding-top: 30px;
-    color: #9b9fa6;
-}
-
 .helpline-left input {
 	width: 100%;
     border: none;
     border-bottom: 1px solid #e0e0e0;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;;
+    font-size: 15px;
+    color: black;
+	margin: 15px 0;
+	padding-bottom: 25px;
 }
 
 .helpline-left input:focus {
-	box-shadow: none;
+	outline: none;
 }
 
 .helpline-left select {
 	width: 100%;
     border: none;
     border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 15px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+	font-weight: 600;
+}
+
+.helpline-left label {
+	font-weight: 600;
+	color: gray;
+}
+
+.helpline-left select:focus {
+	outline: none;
+}
+
+.helpline-left textarea {
+	color: black;
+}
+
+.helpline-left textarea:focus {
+	outline: none;
 }
 
 .helpline-search {
@@ -969,17 +855,6 @@ input[type=search]{
 	color: #737982;
 	float: right;
 	margin-bottom: 5px;
-}
-
-.helpline-right h4 {
-	font-family: 'GentiumBookBasic-Bold';
-    padding-bottom: 5px;
-    font-size: 25px;
-    padding-top: 30px;
-}
-
-.helpline-right p {
-	padding-bottom: 20px;
 }
 
 .helpline-right-question {
@@ -1001,53 +876,17 @@ input[type=search]{
     border: none;
     background: #03c5f8;
     color: white;
-    font-family: 'Poppins-SemiBold';
-}
-
-.helpline-area textarea {
-	border: none;
-    border-bottom: 1px solid #e0e0e0;
+    font-family: 'Poppins' sans-serif;
+	font-weight: 600;
 }
 
 .contact-map {
 	text-align: center;
-	padding: 30px 0 25px;
+	padding: 25px 0px 0px;
 }
 
-.accordion-item {
-	border: none;
-}
-
-
-.contact .accordion-button {
-	padding: 12px;
-	background: white;
-    border: 1px solid gray;
-    box-shadow: none;
-}
-
-.accordion-button {
-	color: blue;
-	border-bottom: 1px solid lightgray;
-}
-
-.accordion-button:not .collapsed {
-	background: skyblue;
-}
-
-
-
-/*############################################# pricing-01 #########################################*/
-
-
-
-.pricing01 .cart-overview {
-	background: #107dd0;
-}
-
-.pricing01-header {
-	text-align: center;
-	padding: 30px 0;
+.contact-map img {
+	width: inherit;
 }
 
 .pricing01-offer {
@@ -1057,18 +896,76 @@ input[type=search]{
 	background-size: cover;
 }
 
-.pricing01-offer p {
-	text-align: center;
-}
-
 .pricing01-area {
-	background: #f8f8f8;
-	padding: 15px 0 50px;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background: #565cc9;
+	color: white;
 }
 
-.pricing01-answer-sheet {
-    box-shadow: 1px -2px 5px 5px #f3faff;
-    margin-bottom: 50px;
+.pricing01-select-btn {
+	margin: 120px 0 30px;
+	float: right;
+    padding: 15px 40px;
+    border: 2px solid transparent;
+    background: #0e81d9;
+    color: white;
+    border-radius: 50px 0 0 50px;
+    font-family: 'Poppins' sans-serif;
+	font-weight: 600;
+    font-size: 15px;
+    box-shadow: -2px 3px 5px 0px #095590;
+}
+
+.pricing01-select-btn:hover {
+	box-shadow: -3px 0px 5px 2px #095590;
+}
+
+.pricing01-details-btn {
+	padding: 10px 30px;
+    border-radius: 50px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    font-family: 'Poppins' sans-serif;
+	font-weight: 600;
+	margin: 25px 0 0;
+}
+
+.pricing01-details-btn:hover {
+	box-shadow: 0px 0px 10px 2px #095590;
+	background-color: white;
+	color: #007ea7;
+	transition: 1s;
+}
+
+.pricing01-offer-price {
+	padding-left: 30px;
+	text-align: left;
+}
+
+.pricing01-offer p {
+	color: white;
+	padding: 15px 0;
+	margin: 0;
+}
+
+.pricing01-offer p:hover {
+	background-color: white;
+	color: #0084e9;
+}
+
+.pricing01-offer h6 {
+	font-size: 12px;
+}
+
+.pricing01-offer h3	{
+	font-family: Gentium Book Basic, sans-serif;
+	font-size: 40px;
+}
+
+.pricing01-para {
+	background: #0084e9;
 }
 
 .pricing01-answer-box {
@@ -1080,82 +977,31 @@ input[type=search]{
     background: white;
 }
 
-.pricing01-answer-sheet select {;
-    width: 100%;
-    border: none;
-}
-
-.pricing01-para {
-	background: #0084e9;
-}
-
-.pricing01-select-button {
-	margin: 120px 0 30px;
-}
-
-.pricing01-select-button button {
-	float: right;
-    padding: 15px 40px;
-    border: 2px solid transparent;
-    background: #0e81d9;
-    color: white;
-    border-radius: 50px 0 0 50px;
-    font-family: 'Poppins-semibold';
-    font-size: 15px;
-    box-shadow: -2px 3px 5px 0px #095590;
-}
-
-.pricing01-offer-price {
-	padding-left: 30px;
-}
-
-.pricing01-offer p {
-	color: white;
-	padding: 10px 0;
-}
-
-.pricing01-offer h6 {
-	font-size: 12px;
-}
-
-.pricing01-offer h3	{
-	font-family: GentiumBookBasic-Bold;
-	font-size: 40px;
-}
-
-.pricing01-details-button button {
-	padding: 10px 30px;
-    border-radius: 50px;
-    border: 2px solid white;
-    background: transparent;
-    color: white;
-    font-family: 'Poppins-SemiBold';
-}
-
-.pricing01-details-button {
-	text-align: center;
-	margin: 25px 0 0;
-}
-
-.pricing01-faq {
-	text-align: center;
-	padding-top: 50px;
-	padding-bottom: 50px;
-}
-
-.pricing01-faq h2 {
-	color: #1e96f2;
-}
-
-.pricing01-answer-sheet .accordion-button i {
-	font-size: 15px;
+.pricing01-answer-sheet .accordion-button:not(.collapsed) i {
+	transform: rotate(180deg);
+	color: black;
 	padding-bottom: 0;
+	font-size: 16px;
 }
 
+.pricing01-answer-sheet {
+	margin-bottom: 0;
+	box-shadow: 1px -2px 5px 5px #f3faff;
+	padding: 0;
+}
 
+.pricing01-answer-box:hover {
+	background: lightgray;
+}
 
-/*#######################################################PRICING-02######################################*/
+.pricing01-answer-sheet .accordion-button:focus {
+	box-shadow: none;
+	border-bottom: none;
+}
 
+.pricing01 .cart-overview {
+	background: #107dd0;
+}
 
 .pricing02-area {
 	background-color: #f4f4f4;
@@ -1181,17 +1027,14 @@ input[type=search]{
 	margin-top: 65px;
 }
 
-.pricing02 .mobile-contact h2 {
-    padding-top: 35px;
-}
-
 .pricing02 .contact-details button {
     padding: 10px 70px;
     border: none;
     border-radius: 25px;
     background: #2799c1;
     color: white;
-    font-family: 'Poppins-Regular';
+    font-family: 'Poppins', sans-serif;
+	font-weight: 400;;
 }
 
 .pricing02 input[type=name],input[type=subject],input[type=message] {
@@ -1210,156 +1053,58 @@ input[type=search]{
     margin-bottom: 30px;
 }
 
-
-
-
-
-
-
-/*################################################### FAQ01 ##########################################*/
-
-
-
-.faq01 .pricing01-faq h2 {
-	color: #37404d;
-}
-
-.faq01-general {
-	border-bottom: 1px solid #f2f2f2;
-	padding-bottom: 65px;
-}
-
-.faq01 .copyright {
-	margin-top: 50px;
-}
-
-.faq01 .accordion-button {
-	padding: 25px;
-}
-
-/*############################################### FAQ02 ########################################*/
-
-.faq02 .pricing01-faq h2 {
-	color: #37404d;
-}
-
-.faq02-answer {
-	box-shadow: 1px -2px 5px 5px #f3faff;
-	border-bottom: 5px solid #04c5f8;
-}
-
-.faq02-answer p {
-	/*box-shadow: 1px -2px 5px 5px #f3faff;*/
-    padding: 25px 25px 30px;
-    line-height: 28px;
-}
-
-.faq02 .contact-us input {
+.contact-us input {
 	width: 100%;
 	padding: 10px;
     margin: 10px 0;
     background: #f5f5f5;
     border: none;
-    font-family: poppins-regular;
+    font-family: poppins, sans-serif;
+	font-weight: 400;
     color: #93989f;
 }
 
-.faq02 .contact-us textarea {
-	padding: 10px;
-    margin: 10px 0;
-    background: #f5f5f5;
-    border: none;
-    font-family: Poppins-regular;
-    color: #93989f;
+.faq02-banner .accordion-item {
+	border: none;
+	border-bottom: 1px solid gray;
+	margin-bottom: 0;
+	border-top: none !important;
+	padding: 0;
 }
 
-.faq02 .contact-us {
-	border-bottom: 1px solid #e5e5e5;
+.faq02-banner .accordion-button:not(.collapsed) {
+	margin-bottom: 0;
 }
 
-.send-button {
-	text-align: center;
+.faq02-banner .accordion {
+	box-shadow: 0px 0px 10px -3px #03c5f8;
 }
-
-.send-button button {
-	padding: 10px;
-	width: 50%;
-	background: #007ea7;
-    color: white;
-    font-family: 'Poppins-SemiBold';
-    border: none;
-    margin-bottom: 60px;
-}
-
-.faq02 .copyright {
-	background: white;
-	border-bottom: 10px solid #04c5f8;
-}
-
-.faq02 .copyright p {
-	color: black;
-}
-
-.faq02 .copyright a {
-	color: black;
-}
-
-
-/****************************************************RESPONSIVE COMPLETE**************************************************************/
-
-
-
-
-
-
-/*######################################################GMAIL-BODY##################################################################*/
-
-
 
 .gmail-head {
 	background: #4d84e3;
 	color: white;
 	padding-bottom: 50px;
+	padding-top: 50px;
 }
 
-.gmail-head-right img {
-	margin-left: 75px;
-	width: 120%;
+.gmail-banner {
+	margin-bottom: 50px;
 }
+
 
 .gmail-head-left {
 	padding-top: 70px;
 }
 
-.gmail-head-left button {
-	width: 100%;
-    padding: 13px;
-    border: 1px solid white;
-    background: transparent;
-    color: white;
-    font-family: 'GentiumBookBasic-Bold';
-    border-radius: 5px;
-    margin-top: 35px;
+.gmail-header {
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
-.gmail-head-left button:hover {
-	background: #3bd3fb;
-	border: none;
-}
-
-.gmail-head-left p {
-	color: #f4f4f4;
-}
-
-.gmail-menu {
-	padding: 50px 0;
-}
-
-.gmail-menu i {
+.gmail-header i {
 	float: right;
 	font-size: 20px;
 }
-
 
 .get-gmail {
 	text-align: center;
@@ -1367,55 +1112,21 @@ input[type=search]{
 	padding-bottom: 60px;
 }
 
-.get-gmail button {
-	padding: 10px 50px;
-	color: white;
-	background: #3bd3fb;
-	border-radius: 20px;
-	margin: 15px 0;
-	border: none;
-	font-family: 'GentiumBookBasic-Bold';
-}
-
-
 .gmail-all {
 	background: #f4f4f4;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
 
+.gmail-left-content {
+	text-align: right;
+}
 
 .gmail-all i {
 	color: #685b5b;
-	font-size: 23px;
+	font-size: 30px;
+	margin-bottom: 15px;
 }
-
-.gmail-all h2 {
-	font-size: 25px;
-}
-
-.gmail-description  {
-	padding: 30px 0;
-}
-
-.gmail-all-head {
-	text-align: center;
-	padding-bottom: 40px;
-}
-
-.gmail-all-left {
-	text-align: right;
-	padding: 0 40px;
-}
-
-.gmail-all-right {
-	padding: 0 40px;
-}
-
-.gmail-phone {
-	padding: 0 40px;
-}
-
 
 .gmail-business {
 	text-align: center;
@@ -1423,7 +1134,7 @@ input[type=search]{
 	padding-bottom: 60px;
 }
 
-.gmail-business-area p {
+.gmail-business-box p {
 	padding: 13px;
 }
 
@@ -1431,34 +1142,20 @@ input[type=search]{
 	background: #508df7;
 	color: white;
     padding: 13px;
-    font-family: 'GentiumBookBasic-Bold';
+    font-family: 'Gentium Book Basic', sans-serif;
 }
 
 .gmail-business-box {
 	box-shadow: 0 2px 6px 4px #f9f9f9;
-}
-
-.gmail-business-box button {
-	padding: 7px;
-    background: #34dbfe;
-    color: white;
-    border: none;
-    border-radius: 50px;
-    margin: 20px 0;
-    width: 65%;
-}
-
-.gmail-business-head {
 	padding-bottom: 30px;
 }
 
-.gmail-business-head h2 {
-	padding-bottom: 10px;
-}
+
 
 .gmail-business-box h2 {
 	padding: 0;
 	font-size: 30px;
+	font-family: gentium book basic, sans-serif;
 }
 
 .gmail-business-box span {
@@ -1472,40 +1169,18 @@ input[type=search]{
 .gmail-business-box select {
 	border: none;
 	font-size: 12px;
-    font-family: 'Poppins-Regular';
+    font-family: 'Poppins', sans-serif;
+	font-weight: 400;;
 }
 
 .download-area {
 	background: #508df7;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 70px;
 }
 
-.download-area-left	{
+.download-left-content	{
 	padding-top: 100px;
 	padding-right: 120px;
-}
-
-.download-area-left h2 {
-	font-size: 40px;
-	color: white;
-}
-
-.download-area-left p {
-	font-size: 14px;
-	line-height: 25px;
-	padding-bottom: 20px;
-	color: white;
-}
-
-.download-area-left button {
-	padding: 10px 30px;
-    color: white;
-    background: #2bd9fe;
-    border: none;
-    font-family: 'GentiumBookBasic-bold';
-    border-radius: 5px;
-    margin-top: 32px;
 }
 
 .download-area .copyright {
@@ -1518,6 +1193,110 @@ input[type=search]{
 	padding-top: 20px;
 }
 
+.mobile-app-accordion {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.mobile-app-accordion .accordion-item {
+	border: none;
+	border-top: none !important;
+	padding: 0;
+}
+
+.mobile-app-accordion .accordion-body {
+	margin-left: 48px;
+	font-size: 14px;
+	margin-bottom: 30px;
+	border-bottom: 1px solid gray;
+}
+
+.mobile-app-accordion .accordion-button  {
+	color: #777272;
+	padding: 0;
+	margin-bottom: 0px;
+}
+
+.mobile-app-accordion .accordion-button i {
+	padding-bottom: 0;
+	font-size: 16px;
+	margin-right: 30px;
+	transform: rotate(360deg);
+}
+
+.mobile-app-accordion .accordion-button:not(.collapsed) i {
+	transform: rotate(90deg);
+	color: blue;
+	padding-bottom: 0;
+	font-size: 16px;
+	padding-right: 0;
+	padding-left: 0;
+	color: gray;
+}
+
+.left-arrow {
+	position: absolute;
+    margin-top: 22%;
+    margin-left: 100px;
+    float: left;
+    color: blue;
+    background: white;
+    padding-bottom: 0;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.left-arrow:hover, .right-arrow:hover {
+	color: white;
+	background: transparent;
+	transition: 0.5s;
+}
+
+.right-arrow {
+	position: relative;
+    float: right;
+    margin-right: 100px;
+    margin-top: -15%;
+    color: blue;
+    background: white;
+    padding-bottom: 0;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.header-left-contant {
+	padding-top: 120px;
+}
+
+.skype-description {
+	background: #12c6f0;
+	text-align: center;
+	color: white;
+}
+
+.skype-description {
+	padding: 50px 0;
+}
+
+.skype-description-img {
+	padding: 50px 0;
+}
+
+.skype-description .description-box {
+	padding: 40px 10px;
+}
+
+.skype-description .description-box i {
+	font-size: 30px;
+	padding-bottom: 15px;
+}
+
 .trello-information-right .accordion-item {
 	border: none;
 }
@@ -1526,108 +1305,41 @@ input[type=search]{
 	padding: 0;
 }
 
-.trello-information-right .accordion-item h2 {
-	padding: 0;
-}
-
-.trello-information-right .accordion-button:after {
-	background: none;
-}
-
-/*.trello-information-right .accordion-button i {
-	padding-right: 40px;
-}*/
-
 .trello-information-right .accordion-button {
 	box-shadow: none;
 	background: transparent;
 }
 
-
-/*########################################################################## HOW-IT-WORK ##########################################################*/
-
-
-
 .timeline {
-  position: relative;
-  max-width: 1200px;
-  margin: 0 auto;
+	position: relative;
+	max-width: 1200px;
+	margin: 0 auto;
 }
-
-
 
 .content {
-  padding: 20px 30px;
-  background-color: white;
-  position: relative;
-  border-radius: 6px;
+	padding: 20px 30px;
+	background-color: white;
+	position: relative;
+	border-radius: 6px;
 }
-
-
-/*##################################################################PRODUCT-PAGES#################################################################*/
-
 
 .product-page .navbar-nav li i {
 	color: white;
 	font-size: 15px;
 }
 
-
-
-
-/*################################################# SKYPE ##########################################################*/
-
-
-
 .skype-banner {
 	background: #20caf0;
 	color: white;
-	height: 1000px;
+	padding-bottom: 200px;
 }
 
 .skype-heading {
-	padding: 30px 0;
+	padding: 30px 0 70px;
 }
-
-.skype-heading i {
-	float: right;
-	color: white;
-}
-
-
-.skype-content {
-	text-align: center;
-}
-
-.skype-content img {
-	width: 80%;
-}
-
 
 .skype-content-right {
 	padding: 80px 45px 0;
-}
-
-.skype-content button {
-	border: 1px solid white;
-    border-radius: 30px;
-    width: 45%;
-    padding: 10px;
-    background: transparent;
-    color: white;
-    margin: 50px 10px 0;
-}
-
-.skype-content button:hover {
-	color: #20caf0;
-	background: white;
-	transition: 1s;
-}
-
-
-.skype-content p {
-	color: #87fff0;
-	line-height: 22px;
 }
 
 .progress-bar {
@@ -1684,75 +1396,28 @@ input[type=search]{
 	width: 100px;
 }
 
-
 .skype-download-area {
 	padding-top: 80px;
 	padding-bottom: 80px;
 }
 
-.skype-download-area p {
-	padding-bottom: 20px;
-}
-
 .skype-download-area img {
-	width: 145%;
+	margin-top: 30px;
 }
 
 .skype-download-area .padding-rt {
 	padding-right: 50px;
 }
 
-.skype-download-area button {
-	padding: 10px 25px;
-    background: #12c6f0;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    font-family: 'GentiumBookBasic-Bold';
-    margin-top: 30px;
-    font-size: 13px;
-}
-
-
-.skype-description {
-	background: #12c6f0;
-	text-align: center;
-	color: white;
-}
-
-
-.skype-description {
-	padding: 50px 0;
-}
-
-.skype-description-img {
-	padding: 50px 0;
-}
-
-.skype-description .description-box {
-	padding: 40px 10px;
-}
-
-.skype-description .description-box i {
-	font-size: 22px;
-	padding-bottom: 15px;
-}
-
-.skype-description .description-box p {
-	font-size: 12px;
-	color: #87fff0;
-}
-
 .skype-faq {
 	text-align: center;
 	border-bottom: 1px solid gray;
+	padding-bottom: 40px;
 }
-
 
 .skype-faq-heading {
 	padding: 50px 0;
 }
-
 
 .skype-faq h2 {
 	color: #12c6f0;
@@ -1770,19 +1435,6 @@ input[type=search]{
 .skype .copyright a {
 	color: black;
 }
-
-.skype .skype-faq-heading {
-	padding-top: 0;
-}
-
-
-
-
-
-
-/*############################################################# SLACK ####################################################*/
-
-
 
 .slack-area {
 	background: #60adc9;
@@ -1803,15 +1455,20 @@ input[type=search]{
 	margin-top: 10px;
 }
 
-.slack-btn button {
-	padding: 10px 20px;
+.sign-up-btn {
+	padding: 10px 45px;
     border: none;
     border-radius: 25px;
     box-shadow: 0px 0px 9px -2px darkslategrey;
-    background: #6ab8d3;
+    background: transparent;
     color: white;
-    font-family: 'Poppins-Regular';
+    font-family: 'Poppins', sans-serif;
+	font-weight: 400;;
     float: right;
+}
+
+.sign-up-btn:hover {
+	box-shadow: none;
 }
 
 .slack-banner {
@@ -1821,11 +1478,14 @@ input[type=search]{
 .slack-banner button {
 	padding: 10px 30px;
     color: #60adc9;
-    font-family: 'GentiumBookBasic-Bold';
+    font-family: 'Gentium Book Basic', sans-serif;
     border: none;
     border-radius: 25px;
-    margin: 40px 0 80px;
     background: white;
+}
+
+.slack-banner button:hover {
+	box-shadow: 0px 0px 9px -2px darkslategrey;
 }
 
 .slack .video-play-btn {
@@ -1837,46 +1497,36 @@ input[type=search]{
 	color: white;
 }
 
-.slack-slider {
-	float: right;
-}
-
 .slack-slider ul {
 	margin-bottom: 30px;
+	float: right;
 }
 
 .slack-slider ul li {
 	display: block;
+	margin-right: 30px;
 }
 
 .slack-slider ul li i {
-	font-size: 15px;
-	margin: -5px 20px;
+	font-size: 16px;
+	margin: 0px 10px;
 }
 
 .slack-slider ul li i:before {
-	/*border: 1px solid white;*/
 	border-radius: 50%;
 }
 
-.slack-slider ul li:hover i:before {
-	color: transparent;
-}
-
-
-.slack-team-communication {
-	padding: 80px 0;
+.slack-slider ul li i:hover:before {
+	color: black;
 }
 
 .slack-team-communication img {
-	width: 130%;
-	margin-left: -270px;
+	margin-left: -295px;
 }
 
 .team-content {
 	padding-top: 30px;
 }
-
 
 .timeline-item {
 	width: 100%;
@@ -1887,7 +1537,7 @@ input[type=search]{
     content: '';
     position: absolute;
     width: 3px;
-    height: 115%;
+    height: 125%;
     background-color: #608fbf;
     left: 11px;
     margin-top: 20px;
@@ -1901,11 +1551,11 @@ input[type=search]{
     text-align: center;
     color: white;
     position: absolute;
-    font-family: 'GentiumBookBasic-semiBold';
+    font-family: 'Gentium Book Basic' sans-serif;
+	font-weight: 600;
     font-size: 15px;
     margin-top: 20px;
 }
-
 
 .timeline-item:last-child {
 	height: 0;
@@ -1913,22 +1563,16 @@ input[type=search]{
 
 .timeline-content {
 	margin-left: 65px;
-	padding: 20px;
+	padding-top: 20px;
 }
 
 .timeline-content:hover {
 	background: #b8c6cb;
 }
 
-
-.pricing01-answer {
-	padding: 0;
-}
-
 .slack .accordion-item h2 {
 	padding-bottom: 0;
 }
-
 
 .slack-app {
 	background: #60adc9;
@@ -1937,25 +1581,24 @@ input[type=search]{
 	color: white;
 }
 
-
 .slack-app button {
 	padding: 8px 45px;
     border: none;
     border-radius: 25px;
     margin: 30px 0 45px;
     color: #0d6efd;
-    font-family: 'GentiumBookBasic-semiBold';
+    font-family: 'Gentium Book Basic' sans-serif;
+	font-weight: 600;
 }
-
 
 .slack-app img {
 	margin-bottom: 40px;
+	width: 100%;
 }
 
 .slack-tool img {
-	padding: 60px 115px 20px;
+	width: 100%;
 }
-
 
 .slack-tool {
 	padding: 60px 0;
@@ -1974,7 +1617,6 @@ input[type=search]{
 	background: white;
 }
 
-
 .accordion-button::after {
 	background-image: none;
 	width: 0;
@@ -1984,79 +1626,24 @@ input[type=search]{
 	background-image: none;
 }
 
-.accordion-item .accordion-header p {
-	width: 100%;
-}
-
-.accordion-item .accordion-body p {
-	text-align: left;
-}
-
-.mobile-app .accordion-button i {
+.accordion-button i {
 	padding-bottom: 0;
 	font-size: 16px;
-	/*padding-right: 30px;*/
+	margin: 10px;
 }
 
-.mobile-app-developer .accordion-button i {
-	padding-bottom: 0;
-	font-size: 16px;
-	margin-right: 30px;
-}
-
-
-.pricing01-answer-sheet .accordion-button:not(.collapsed) i {
-	transform: rotate(180deg);
-	color: black;
-	padding-bottom: 0;
-	font-size: 16px;
-}
-
-/*.accordion-button:not(.collapsed) i {
-	transform: rotate(180deg);
-	color: black;
-	padding-right: 0;
-	padding-left: 40px;
-}*/
-
-.mobile-app-developer .accordion-button:not(.collapsed) i {
-	transform: rotate(180deg);
-	color: blue;
-	padding-bottom: 0;
-	font-size: 16px;
-	padding-right: 0;
-	padding-left: 0;
-}
-
-.accordion-item .accordion-header {
-	padding-bottom: 0;
-}
-
-.accordion-item .accordion-header p {
-	width: 100%;
-}
-
-/*############################################################## TRELLO #########################################################*/
-
-
-.trello .gmail-menu button {
+.trello .gmail-header button {
 	float: right;
     padding: 8px 40px;
     border-radius: 25px;
     border: 2px solid #4ce0b3;
     background: transparent;
     color: white;
-    font-family: 'GentiumBookBasic-Bold';
+    font-family: 'Gentium Book Basic', sans-serif;
 }
-
 
 .trello .gmail-head {
 	background: #439b9a;
-}
-
-.trello .gmail-head-left button:hover {
-	background: #4ce0b3;
-	border: 1px solid transparent;
 }
 
 .trello-description {
@@ -2069,7 +1656,6 @@ input[type=search]{
 	padding-bottom: 60px;
 }
 
-
 .trello-description p {
 	color: #828a97;
 }
@@ -2077,22 +1663,20 @@ input[type=search]{
 .trello-description-body i {
 	color: #0fa3a1;
 	padding-bottom: 15px;
+	font-size: 30px;
 }
 
 .trello-description-body h2 {
 	font-size: 25px;
 }
 
-
 .trello-description-body {
 	padding: 0 30px;
 }
 
-
 .trello-description-body:nth-child(n+1):nth-child(-n+3) {
 	padding-bottom: 60px;
 }
-
 
 .trello-team-work {
 	background: #268e8d;
@@ -2120,7 +1704,7 @@ input[type=search]{
     border: none;
     background-color: #52e1b6;
     color: white;
-    font-family: 'GentiumBookBasic-Bold';
+    font-family: 'Gentium Book Basic', sans-serif;
     margin-top: 30px;
 }
 
@@ -2130,18 +1714,17 @@ input[type=search]{
 	transition: 1s;
 }
 
-
 .trello-board {
 	padding: 80px 0;
 }
-
 
 .trello-board-content {
 	padding-top: 40px;
 }
 
 .trello-board-content p {
-	font-family: poppins-regular;
+	font-family: poppins, sans-serif;
+	font-weight: 400;
     color: #737982;
     font-size: 15px;
     line-height: 25px;
@@ -2155,7 +1738,7 @@ input[type=search]{
     border: none;
     background-color: #52e1b6;
     color: white;
-    font-family: 'GentiumBookBasic-Bold';
+    font-family: 'Gentium Book Basic', sans-serif;
     margin-top: 30px;
 }
 
@@ -2163,7 +1746,6 @@ input[type=search]{
 	box-shadow: 0 0 10px 0 #52e1b6;
 	transition: 1s;
 }
-
 
 .trello-board-img img {
 	margin-left: 138px;
@@ -2176,7 +1758,6 @@ input[type=search]{
     color: white;
     padding: 60px 0;
 }
-
 
 .information-heading {
 	padding-bottom: 25px;
@@ -2207,7 +1788,7 @@ input[type=search]{
 
 .information-video p {
 	color: #7d7d7d;
-	font-family: 'GentiumBookBasic-Bold';
+	font-family: 'Gentium Book Basic', sans-serif;
 	padding-top: 10px;
 	position: absolute;
     top: 50%;
@@ -2234,10 +1815,8 @@ input[type=search]{
 .trello-information-right .accordion-body {
 	padding: 0;
 	padding-bottom: 15px;
-	/*padding-left: 70px;*/
-	text-align: left;
+	padding-left: 22px;
 }
-
 
 .trello-waiting {
 	padding: 60px 0 25px;
@@ -2249,7 +1828,7 @@ input[type=search]{
 	padding: 10px 60px;
     background: #4ce0b3;
     color: white;
-    font-family: 'GentiumBookBasic-Bold';
+    font-family: 'Gentium Book Basic', sans-serif;
     border: none;
     border-radius: 25px;
     margin: 30px 0;
@@ -2257,9 +1836,8 @@ input[type=search]{
 }
 
 .trello-waiting h6 {
-	font-family: 'GentiumBookBasic-Bold';
+	font-family: 'Gentium Book Basic', sans-serif;
 }
-
 
 .trello .copyright {
 	color: dimgray;
@@ -2283,270 +1861,80 @@ input[type=search]{
 	color: dimgray;
 }
 
-
-
-
-
-/*############################################################# MOBILE-APP ##############################################################*/
-
-
-
-
-
-.mobile-app .gmail-head {
-	background: #3b43c5;
+.our-app .video-play-btn {
+	height: 0;
+	margin-bottom: 90px;
 }
 
-.mobile-app .gmail-head-left button:hover {
-	background: #1e96f2;
-	border: 1px solid transparent;
-}
-
-.mobile-app .gmail-menu .header-menu {
-	margin: 0;
-}
-
-.mobile-app .gmail-menu .header-menu a {
-	color: white;
-	margin: 0 10px;
-}
-
-.mobile-app .gmail-menu span {
-	font-family: 'poppins-regular';
-}
-
-
-.mobile-app .gmail-head-right img {
-	width: 65%;
-	float: right;
-}
-
-.mobile-app .our-app .video-play-btn {
-	height: 150px;
-}
-
-.mobile-app .our-app .header-banner {
-	padding-bottom: 20px;
-}
-
-.mobile-app .our-app {
-	text-align: center;
-	padding: 70px 0;
-}
-
-.mobile-app .our-app h2 {
-	color: black;
-}
-
-.mobile-app .app-overview {
+.app-overview {
 	background: #565cc9;
 	padding: 80px 0;
 	text-align: center;
 }
 
-.mobile-app .overview-heading {
-	padding-bottom: 20px;
-}
-
-.mobile-app .overview-heading h2 {
-	color: white;
-}
-
-.mobile-app .app-overview p {
-	color: lightgray;
-	line-height: 25px;
-}
-
-.mobile-app .overview-boxs i {
+.overview-boxs i {
 	color: #565cc9;
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     border: 1px solid lightgray;
-    line-height: 70px;
+    line-height: 80px;
     border-radius: 50%;
+	font-size: 40px;
+	margin-bottom: 25px;
 }
 
-.mobile-app .app-overview .overview-boxs {
+.overview-boxs {
 	background: white;
 	padding: 50px 20px;
+	margin-bottom: 30px;
 }
 
-.mobile-app .app-overview .overview-boxs h6 {
-	padding: 30px 0 10px;
-}
-
-.mobile-app .overview-boxs:not(:nth-child(4)) {
+.overview-boxs:not(:nth-child(4)) {
 	border-right: 1px solid lightgray;
 }
 
-
-.mobile-app .overview-btn {
-	text-align: center;
-}
-
-
-.mobile-app .overview-btn button {
-	width: 40%;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid white;
-    background: transparent;
-    color: white;
-    border-radius: 5px;
-    margin: 50px 10px 0;
-}
-
-.mobile-app .overview-btn button i {
-	padding: 0;
-    font-size: 20px;
-    margin-right: 15px;
-}
-
-
-
-
-.mobile-app-developer img {
-	width: 70%;
-}
-
-
-.mobile-app-developer {
-	padding-top: 60px;
-	padding-bottom: 60px;
-}
-
-.mobile-app .trello-information-right {
-	padding-top: 90px;
-}
-
-
-.mobile-app .mobile-app-developer .accordion-item .accordion-button  {
-	color: #777272;
-	padding-bottom: 5px;
-}
-
-
-.mobile-app .trello-information-right .developer-btn button {
+.trello-information-right .developer-btn button {
 	padding: 10px;
     width: 30%;
     background: #2c9cf3;
     color: white;
-    font-family: 'GentiumBookBasic-Bold';
+    font-family: 'Gentium Book Basic', sans-serif;
     border-radius: 5px;
     border: 1px solid #2c9cf3;
     margin: 50px 10px 0 0;
     transition: 0.5s;
 }
 
-.mobile-app .trello-information-right .developer-btn button:hover {
+.trello-information-right .developer-btn button:hover {
 	background: white;
 	color: #2c9cf3;
 }
 
-.mobile-app .trello-information-right h4 {
+.trello-information-right h4 {
 	color: #2c9cf3;
     font-size: 25px;
-    font-family: 'GentiumBookBasic-Bold';
+    font-family: 'Gentium Book Basic', sans-serif;
     padding-bottom: 20px;
 }
 
-.mobile-app .trello-information-right h4 span {
+.trello-information-right h4 span {
 	color: black;
 }
 
-.mobile-app .pricing01-area {
-	background: #565cc9;
-	color: white;
-}
-
-.mobile-app .pricing01-area p {
-	color: lightgray;
-}
-
-
-.mobile-app .skype-description {
-	background: white;
-	color: black;
-}
-
-.mobile-app .skype-description button {
+.skype-description button {
 	padding: 13px 50px;
-    font-family: 'GentiumBookBasic-Bold';
+    font-family: 'Gentium Book Basic', sans-serif;
     border: none;
     border-radius: 5px;
     background: #0f7ccf;
     color: white;
 }
 
-
-.mobile-app .flt-lft {
-	position: absolute;
-    margin-top: 22%;
-    margin-left: 100px;
-    float: left;
-    color: blue;
-    background: white;
-    padding-bottom: 0;
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-    text-align: center;
-    border-radius: 50%;
-}
-
-.mobile-app .flt-lft:hover, .mobile-app .flt-rt:hover {
-	color: white;
-	background: transparent;
-	transition: 0.5s;
-}
-
-.mobile-app .flt-rt {
-	position: relative;
-    float: right;
-    margin-right: 100px;
-    margin-top: -18%;
-    color: blue;
-    background: white;
-    padding-bottom: 0;
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-    text-align: center;
-    border-radius: 50%;
-}
-
-.mobile-app .flt-rt:hover {
-
-}
-
-.mobile-app .app-screenshort {
-	padding: 80px 0;
-    background: #5158d9;
-    color: white;
-}
-
-
-.app-screenshort-heading {
-	padding-bottom: 40px;
-	text-align: center;
-}
-
-
-
-.mobile-app .mobile-app-feedback {
-	text-align: center;
-	padding: 60px 0 80px;
-}
-
-.mobile-app .feedback-banner {
-	padding-top: 30px;
-}
-
-.mobile-app .feedback-banner img {
+.feedback-banner img {
 	width: 10%;
 }
 
-.mobile-app .feedback-body {
+.feedback-area {
 	background: #4047d8;
     padding: 55px 30px 40px;
     line-height: 25px;
@@ -2555,20 +1943,13 @@ input[type=search]{
     color: lightgray;
 }
 
-
-.mobile-app .feedback-body button {
-	padding: 7px 70px;
-    border: none;
-    border-radius: 25px;
-    font-family: 'Poppins-Regular';
-    margin-top: 35px;
-    color: #4047d8;
+.reply-slider {
+	position: relative;
 }
 
-
-.mobile-app .mobile-app-feedback .flt-lft {
-	margin-top: 140px;
-	margin-left: -455px;
+.slider-left {
+	position: absolute;
+	top: 50%;
 	color: white;
 	background: #4047d8;
 	height: 35px;
@@ -2577,40 +1958,27 @@ input[type=search]{
 	border-radius: 0;
 }
 
-
-.mobile-app .mobile-app-feedback .flt-rt {
-	margin-top: -110px;
-	margin-right: -60px;
-	color: white;
-	background: #4047d8;
-	width: 35px;
-	height: 35px;
-	line-height: 35px;
-	border-radius: 0;
+.slider-right {
+	left: 95%;
 }
 
-
-.mobile-app .mobile-contact {
+.mobile-contact {
 	text-align: center;
     background: #4047d8;
     color: white;
     height: 250px;
-}
-
-.mobile-app .mobile-contact h2 {
 	padding-top: 35px;
 }
-
 
 .contact-details {
 	padding: 60px 80px 40px;
     text-align: center;
     box-shadow: 0 0 6px 0px grey;
     background: white;
-    margin-top: -120px;
+    margin-top: -135px;
 }
 
-.mobile-app .contact-details input[type=name],input[type=subject],input[type=message] {
+.contact-details input[type=name],input[type=subject],input[type=message], input[type=email] {
 	width: 100%;
     border: none;
     border-bottom: 1px solid gray;
@@ -2618,98 +1986,39 @@ input[type=search]{
     margin-bottom: 30px;
 }
 
-.mobile-app input[type=email] {
-	width: 100%;
-    border: none;
-    border-bottom: 1px solid gray;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
+.contact-details input[type=name],input[type=subject],input[type=message], input[type=email]:focus {
+	outline: none;
 }
 
-.mobile-app .contact-details button {
-	padding: 10px 70px;
-    border: none;
-    border-radius: 25px;
-    background: #1a8ee6;
-    color: white;
-    font-family: 'Poppins-Regular';
-}
-
-
-.mobile-app .pricing01-answer {
-	padding-right: 40px;
-}
-
-.mobile-app .faq01-general {
+.faq01-general {
 	border-bottom: none;
 }
 
-.mobile-app .pricing01-answer-sheet {
-	margin-bottom: 0;
-	box-shadow: 1px -2px 5px 5px #f3faff;
-	padding: 0;
-}
 
-.mobile-app .pricing01-faq {
-	padding: 50px 0;
-}
 
-.mobile-app .pricing01-answer-box:hover {
-	background: lightgray;
-}
-
-.mobile-app .accordion-button:after {
+.accordion-button:after {
 	background-image: none;
 }
 
-.mobile-app .accordion-button p {
-	width: 100%;
-}
-
-.mobile-app .mobile-app-developer .accordion-button {
-	border: none;
-	background: none;
-}
-
-.mobile-app .accordion-button {
-	/*border: none;*/
+.accordion-button {
 	background: none;
 	padding: 20px 15px;
 }
 
-.mobile-app .accordion-button:focus {     /*according-open korle j shadow hoi*/
+.accordion-button:focus {
 	box-shadow: none;
 }
 
-.mobile-app .accordion-collapse:focus {
+.accordion-collapse:focus {
 	background: red;
 }
 
-.mobile-app .accordion-header {
+.accordion-header {
 	padding-bottom: 0;
 }
 
-.mobile-app .pricing01-faq h2 {
-	color: black;
-}
-
-.mobile-app .pricing01-faq p {
-	color: darkgray;
-}
-
-.mobile-app .copyright {
-	margin-top: 30px;
+.copyright {
 	background: #4046bd;
-}
-
-
-
-
-
-
-.pricing01-answer-sheet .accordion-button:focus {
-	box-shadow: none;
-	border-bottom: none;
 }
 
 ..accordion-item .collapsed {

@@ -4,19 +4,24 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>checkout-pages</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/fontawesome.css">
-	<link rel="stylesheet" href="css/all.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body class="checkout-pages">
-	<div class="blog-details-area about-area cart-overview">
+<body>
+	<section class="blog-details-area about-area cart-overview">
 		<div class="container">
 			<div class="row header-area">
 				<div class="col-4">
-					<h2>SaaS<span>lab</span></h2>
+					<a href="index.html" class="text-white"><h2>SaaS<span>lab</span></h2></a>
 				</div>
 
 				<div class="col-8">
@@ -31,7 +36,7 @@
 								<li><a href="#">Featured</a></li>
 								<li><a href="faq01.html">FAQ</a></li>
 								<li><a href="contact.html">Contact</a></li>
-								<li><i class="fas fa-cart-plus"></i></li>
+								<li><i class="fas fa-cart-plus add-to-cart"></i></li>
 							</ul>
 						</div>
 					</nav>
@@ -39,22 +44,22 @@
 			</div>
 
 			<div class="row header-banner text-center">
-				<div class="col-8 offset-2">
-					<H1>Make Sure, Your Product Is Ready</H1>
-					<h4>Check Out</h4>
+				<div class="col-12 col-lg-8 offset-lg-2">
+					<h1 class="header-title">Make Sure, Your Product Is Ready</h1>
+					<h4 class="title text-white bdr-btn" style="font-family: poppins, sans-serif; font-weight: 400;">Check Out</h4>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
 
-	<div class="shipping-area">
+	<section class="shipping-area">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2 shipping-details">
 					<div class="row">
 						<div class="col">
-							<h2>Shipping-Address</h2>
+							<h2 class="title">Shipping-Address</h2>
 						</div>
 					</div>
 
@@ -117,19 +122,19 @@
 							<input class="shipping-address" type="text" placeholder="Address linr 2     (Optional)">
 						</div>
 						<div class="col-12">
-							<textarea name="additional instruction" id="" cols="86" rows="3" placeholder="Additional Instruction"></textarea>
+							<textarea class="shipping-address" style="border: 1px solid #e1e3e4; background: white;" name="additional instruction" id="" cols="86" rows="3" placeholder="Additional Instruction"></textarea>
 						</div>
 
 						<div class="payment-button">
-							<button>Payment Now</button>
+							<button class="about-btn float-end">Payment Now</button>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
-	<div class="copyright">
+	<section class="copyright">
 		<div class="container">
 			<div class="row">
 				<div class="col-8 col-lg-4">
@@ -155,7 +160,36 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
+	</section>
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".owl-carousel").owlCarousel({
+				items: 1,
+				autoplay : false,
+				autoplayTimeout : 2000,
+				dots : false,
+				loop : false,
+				margin: 20,
+				nav: false,
+					
+				// responsiveClass:true,
+				// responsive:{
+				// 	0:{
+				// 		items:1,
+				// 	},
+				// 	600:{
+				// 		items:1,
+				// 	},
+				// 	1000:{
+				// 		items:2,
+				// 	}
+				// }
+			});
+		});
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,29 +1,14 @@
 /*// Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px){
 
-	.about-area h2 {
-		font-size: 25px;
-	}
-
-	.header-menu {
-		margin: 0;
-	}
-
-	.header-banner h1 {
-		padding-bottom: 0;
-	}
-
-	.about-area p {
-		font-size: 12px;
-	}
-
-	.about-description p {
-		padding-bottom: 30px;
+	.sub-title {
+		margin-bottom: 20px;
 	}
 
 	.about-box {
-		margin-bottom: 5px;
+		margin-bottom: 10px;
 		padding: 20px;
+		border-right: none;
 	}
 
 	.team-box {
@@ -39,41 +24,27 @@
 	}
 
 	.about-description {
-		padding: 30px 0 0;
+		margin: 30px 0 0;
 	}
 
-	.about-project-details p {
-		font-size: 12px;
+	.sub-title {
+		margin-bottom: 20px;
 	}
 
-	.about-project-details button {
-		margin-top: 10px;
-		padding: 10px 25px;
+	.about-btn {
+		padding: 15px 30px;
+		margin-top: 30px;
 	}
 
-	.about-product-missions {
-		padding: 30px 0;
+	.video-play-btn {
+		height: 0;
+		position: relative;
+		margin-bottom: 80px;
+		margin-top: 60px;
 	}
-
-	.about-product-missions button {
-		margin-top: 10px;
-		padding: 10px 25px;
-	}
-
-	.about-choose-us {
-		padding: 30px 0;
-	}
-
-	.about-team {
-		padding: 30px 0;
-	}
-
-	/*##################################################*/
-
-				/*blog-details*/
 
 	.header-area {
-		padding-bottom: 0;
+		margin-bottom: 20px;
 	}
 
 	.department-share i {
@@ -81,55 +52,12 @@
     	font-size: 15px;
 	}
 
-	.video-container iframe {
-		width: 377px;
-		height: 200px;
-	}
-
 	textarea {
 		width: 100%;
 	}
 
 	.blog-description {
-		padding: 30px 0;
-	}
-
-	.blog-description p {
-		font-size: 10px;
-		line-height: 22px;
-	}
-
-	.third-description p {
-		padding: 15px 40px 0;
-	}
-
-	.second-description img {
-		height: 200px;
-	}
-
-	.description-image {
-		height: 200px;
-	}
-
-	.blog-search {
-		padding: 8px 1px 8px 20px;
-	}
-
-	.blog-details-area {
-		padding: 25px 0;
-	}
-
-	.blog-details-area span i {
-		padding: 10px 20px 12px 10px;
-	}
-
-	.blog-details-area p {
-		padding-bottom: 10px;
-		font-size: 12px;
-	}
-
-	.blog-details-area .header-banner h1 {
-		padding-bottom: 5px;
+		margin: 30px 0;
 	}
 
 	.comments-reply span {
@@ -168,15 +96,12 @@
 
 	.blog-right-description {
 		margin-top: 30px;
-		padding: 0;
+		padding: 0px 10px;
 	}
 
 	.blog-details .copyright p {
 		font-size: 12px;
 	}
-
-
-	/*#######################################blog-pages####################################*/
 
 	.blog-left-description img {
 		height: 185px;
@@ -199,71 +124,26 @@
 	}
 
 	.blog-pages-text a i {
-		font-size: 10px;
-		margin-left: 4px;
-	}
-
-	.blogpage-previous {
-		padding: 0;
-	}
-
-	.blogpage-previous button {
-		margin: 0;
 		font-size: 12px;
-	}
-
-	.blogpage-previous i {
-		font-size: 12px;
-	}
-
-	.blogpage-next {
-		padding: 0;
-	}
-
-	.blogpage-next button {
-		font-size: 12px;
-		margin: 0;
-		padding: 10px 39px;
-	}
-
-	.blogpage-slider-button {
-		padding-bottom: 30px;
+		margin-left: 12px;
 	}
 
 	.blog-pages .copyright-border {
 		border: none;
 	}
 
-	/*################################### cart-overview ###############################*/
-
-	.cart-overview .header-banner h1 {
-		font-size: 20px;
-	}
-
-	.cart-overview .header-banner h4 {
-		font-size: 12px;
+	.next-btn {
+		float: right;
 	}
 
 	.cart-image {
 		padding: 0;
 	}
 
-	.cart-image img {
-		height: 50px;
-	}
-
 	.overview-product-name {
 		margin-top: 0;
 		margin-bottom: 10px;
-	}
-
-	.overview-product-name h2 {
-		font-size: 18px;
-		padding-bottom: 4px;
-	}
-
-	.overview-product-name span {
-		font-size: 14px;
+		padding-bottom: 10px;
 	}
 
 	.overview-product-name span input {
@@ -271,22 +151,12 @@
 		height: 20px;
 	}
 
-	.product-specification h5 {
-		font-size: 15px;
-		padding-bottom: 0;
-	}
-
-	.product-specification h4 {
-		font-size: 13px;
-	}
-
-	.product-specification p {
-		font-size: 10px;
-		line-height: 22px;
-	}
-
 	.overview-product-description {
 		margin-bottom: 30px;
+	}
+
+	.product-description button {
+		padding: 10px 20px;
 	}
 
 	.cart-amount {
@@ -298,26 +168,18 @@
     	font-size: 12px;
 	}
 
-	.product-description button {
-		margin: 20px 0;
-		padding: 7px 20px;
-		font-size: 13px;
+	.bdr-btn::before {
+		left: 40%;
 	}
 
-
-	/*########################################### checkout-pages #######################################*/
+	.product-description {
+		padding-bottom: 40px;
+		padding-top: 40px;
+	}
 
 	.payment-button button {
 		margin: 15px 0 0;
 	}
-
-
-	.checkout-pages .shipping-details {
-		font-size: 12px;
-	}
-
-
-	/*########################################## contact ######################################*/
 
 	.contact .header-banner h1 {
 		font-size: 25px;
@@ -330,26 +192,12 @@
 		font-size: 20px;
 	}
 
-	.contact .helpline-left label {
-		padding: 0;
-		font-size: 10px;
-	}
-
 	.contact .helpline-left p {
 		padding-bottom: 15px;
 	}
 
 	.contact .helpline-left {
 		padding-right: 0;
-	}
-
-	.contact .helpline-area textarea {
-		height: 40px;
-	}
-
-	.contact .helpline-area button {
-		padding: 10px;
-		margin: 10px 0 0;
 	}
 
 	.contact .helpline-right {
@@ -370,10 +218,6 @@
 		padding-bottom: 0;
 	}
 
-
-
-	/*################################################# PRICING-01 ##################################*/
-
 	.pricing01-header {
 		padding: 20px 0;
 	}
@@ -386,81 +230,6 @@
 		padding: 15px 20px;
 		font-size: 10px;
 	}
-
-
-
-
-	/*#################################### PRICING-02 ############################*/
-
-
-	.pricing02 .gmail-business {
-		padding-top: 30px;
-		padding-bottom: 0;
-	}
-
-	.pricing02 .gmail-business-box {
-		margin-bottom: 30px;
-	}
-
-	.pricing02 .contact-details {
-		padding: 40px;
-		font-size: 12px;
-		margin-top: -175px;
-	}
-
-	/*############################################ FAQ-01 ######################################*/
-
-
-	.faq01 .pricing01-answer-box {
-		font-size: 11px;
-	}
-
-
-	.faq01 .header-banner h1 {
-		font-size: 22px;
-		line-height: 30px;
-	}
-
-	.faq01 .header-banner p {
-		font-size: 11px;
-	}
-
-	.faq01-general {
-		margin-bottom: 0px;
-		padding-bottom: 0;
-	}
-
-	.faq01 .pricing01-answer-box {
-		font-size: 10px;
-	}
-
-	.faq01 .pricing01-faq {
-		padding-top: 30px;
-		padding-bottom: 30px;
-	}
-
-	.faq01 .accordion-button {
-		padding: 12px;
-	}
-
-	.faq01 .faq02-answer {
-		margin-top: 40px;
-	}
-
-	/*.faq01 .accordion-item .accordion-header p {
-		font-size: 10px;
-	}
-
-	.faq01 .accordion-item .accordion-header i {
-		font-size: 10px;
-	}
-
-	.faq01 .accordion-item .accordion-body p {
-		font-size: 10px;
-	}*/
-
-
-	/*############################################# FAQ-02 ######################################################*/
 
 	.faq02 .header-banner h1 {
 		font-size: 20px;
@@ -507,98 +276,104 @@
 		margin-bottom: 40px;
 	}
 
-
-	/*####################################################### MOBILE-APP #################################################*/
-
-
-	.mobile-app .gmail-menu .header-menu {
-		padding-top: 10px;
-	}
-
 	.gmail-menu {
 		padding: 25px 0;
 	}
 
 	.gmail-head-left {
 		padding-top: 0;
+		padding-bottom: 30px;
 	}
 
-	.mobile-app .gmail-head-right img {
-    	width: 75%;
-   		padding-top: 40px;
-   		float: none;
-   		margin-left: 30px;
+	.gmail-left-content {
+		text-align: left;
 	}
 
-	.mobile-app .app-overview {
+	.gmail-business-box {
+		margin-top: 20px;
+	}
+
+	.download-area {
+		padding-top: 35px;
+	}
+
+	.download-left-content {
+		padding-top: 0;
+		padding-right: 0;
+		margin-bottom: 30px;
+	}
+
+	.gmail-menu .header-menu {
+		padding-top: 10px;
+	}
+
+	.app-overview {
 		padding: 40px 0;
 	}
 
-	.mobile-app .app-overview .overview-boxs {
+	.app-overview .overview-boxs {
     	padding: 20px;
     	margin-bottom: 5px;
 	}
 
-	.mobile-app .trello-information-right {
+	.trello-information-right {
 		padding-top: 15px;
 	}
 
-	.mobile-app .app-overview p {
+	.app-overview p {
 		font-size: 11px;
 	}
 
-	.mobile-app-developer {
+	.mobile-app-accordion {
     	padding-top: 40px;
     	padding-bottom: 40px;
 	}
 
-	.mobile-app-developer img {
+	.mobile-app-accordion img {
 		width: 100%;
 		padding: 25px;
 	}
 
-	.mobile-app .trello-information-right .developer-btn button {
+	.accordion {
+		margin-bottom: 30px;
+	}
+
+	.header-left-contant {
+		padding-top: 0;
+		margin-bottom: 30px;
+	}
+
+	.trello-information-right .developer-btn button {
 		margin-top: 20px;
 	}
 
-	.mobile-app .app-screenshort img {
+	.app-screenshort img {
 		margin: 5px;
 	}
 
-	.mobile-app .app-screenshort {
+	.app-screenshort {
 		padding: 40px 0;
 	}
 
-	.mobile-app .feedback-banner img {
+	.feedback-banner img {
 		width: 20%;
 	}
 
-	.mobile-app .mobile-app-feedback {
+	.mobile-app-feedback {
 		padding: 40px 0;
 	}
 
-	.mobile-app .pricing01-answer {
+	.pricing01-answer {
     	padding-right: 10px;
-    	margin-bottom: 45px;
 	}
 
 	
-	.mobile-app .trello-information-right .accordion-button i {
+	.trello-information-right .accordion-button i {
     	padding-right: 0;
 	}
 
-	.mobile-app .trello-information-right .accordion-body {
+	.trello-information-right .accordion-body {
 		padding-left: 35px;
-	}
-
-
-
-
-	/*########################################## TRELLO ################################*/
-
-
-	.gmail-head-left button {
-		padding: 10px 0;
 	}
 
 	.trello-description-body h2 {
@@ -607,12 +382,6 @@
 
 	.trello-description-body p {
 		font-size: 12px;
-	}
-
-	.gmail-head-right img {
-    	margin-left: 0;
-    	width: 100%;
-    	margin-top: 40px;
 	}
 
 	.trello-description-body {
@@ -628,13 +397,11 @@
 		padding-bottom: 0;
 	}
 
-
 	.trello-description-body:nth-child(n+1):nth-child(-n+4) {
 		padding-bottom: 25px;
 	}
 
 	.trello-information .accordion-button i {
-		font-size: 10px;
 		padding-right: 20px;
 		padding-top: 5px;
 	}
@@ -648,14 +415,6 @@
 		padding-bottom: 0;
 		padding-left: 30px;
 		text-align: left;
-	}
-
-	.trello-information .accordion-button p {
-		font-size: 10px;
-	}
-
-	.trello-information .accordion-body p {
-		font-size: 10px;
 	}
 
 	.trello-team-work {
@@ -694,9 +453,6 @@
 	.trello .copyright p {
 		font-size: 12px;
 	}
-
-
-	/*#################################### SLACK ########################################*/
 
 	.slack-heading {
 		padding: 40px 0;
@@ -746,215 +502,146 @@
 		margin-bottom: 20px;
 	}
 
-
-	.slack .copyright p {
-		font-size: 12px;
-	}
-
 	.slack .copyright .copyright-border {
 		border: none;
 	}
 
-
-
-	/*##################################### SKYPE ####################################*/
-
-
-	.skype .skype-heading i {
+	.skype-heading i {
 		padding-top: 10px;
 		font-size: 25px;
 	}
 
-	.skype .skype-content-right {
-		padding: 30px 0;
+	.skype-content-right {
+		padding-top: 30px;
+		padding-bottom: 30px;
 	}
 
-	.skype .skype-banner {
-		height: 1000px;
+	.skype-banner {
+		padding-bottom: 100px;
 	}
 
-	.skype .skype-content button {
+	.skype-content button {
 		width: 40%;
 		padding: 8px;
 		font-size: 	12px;
 		margin: 30px 5px;
 	}
 
-	.skype .progress-banner ul li i {
+	.progress-banner ul li i {
 		height: 35px;
 		width: 35px;
 		line-height: 35px;
 		font-size: 12px;
 	}
 
-	.skype .progress-banner ul li {
+	.progress-banner ul li {
 		width: 90px;
 	}
 
-	.skype .progress-banner ul li i:after {
+	.progress-banner ul li i:after {
 		height: 2px;
 		width: 95px;
 		top: 18px;
 		left: 50px;
 	}
 
-	.skype .progress-banner ul li:last-child i:after {
+	.progress-banner ul li:last-child i:after {
 		left: 0;
 		width: 50px;
 	}
 
-	.skype .progress-heading h2 {
+	.progress-banner ul li:first-child i:after {
+		left: 50px;
+	}
+
+	.progress-heading h2 {
 		padding-bottom: 0;
 	}
 
-	.skype .progress-banner {
+	.progress-banner {
 		padding-top: 20px;
 	}
 
-	.skype .skype-download-area {
-		padding: 30px 0;
+	.skype-download-area {
+		padding-top: 30px;
+		padding-bottom: 30px;
 	}
 
-	.skype .skype-download-area button {
-		margin-top: 0;
-	}
-
-	.skype .skype-download-area img {
+	.skype-download-area img {
 		margin-top: 30px;
-		width: 100%;
 	}
 
 
-	.skype .skype-description {
-		padding: 30px 0;
+	.skype-description {
+		padding-top: 30px;
+		padding-bottom: 30px;
 	}
 
-	.skype .skype-description-img {
+	.skype-description-img {
 		padding: 20px 0;
 	}
 
-	.skype .description-box {
+	.description-box {
     	padding: 10px 5px;
 	}
 
-	.skype .description-box h6 {
+	.description-box h6 {
 		font-size: 14px;
 	}
 
-	.skype .description-box p {
+	.description-box p {
 		font-size: 10px;
 	}
 
-	.skype .skype-faq-heading {
+	.skype-faq-heading {
 		padding: 30px 0;
 	}
 
-	.mobile-app-developer {
-		padding: 0 0 30px;
+	.screenshort-area img {
+		margin-bottom: 30px;
 	}
 
-
-	.accordion-item .accordion-header p {
-		font-size: 10px;
-	}
-
-	.mobile-app .mobile-app-developer .accordion-item .accordion-body p {
-		font-size: 10px;
-		padding-left: 40px;
-	}
-
-	.accordion-item .accordion-body p {
-		font-size: 10px;
-	}
-
-	.skype .copyright p {
-		font-size: 10px;
-	}
-
-	.skype .navbar-toggler span i {
+	.navbar-toggler span i {
 		color: blue;
 	}
 
-
-	/*######################################## GMAIL ########################*/
-
-
-	.gmail .gmail-head-left button {
-		font-size: 12px;
-	}
-
-	.gmail .get-gmail {
+	.get-gmail {
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
 
-	.gmail .gmail-all {
+	.gmail-all {
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
 
-	.gmail .gmail-all-left {
+	.gmail-all-left {
 		text-align: left;
 		padding-top: 0;
 		padding-bottom: 0;
 	}
 
-	.gmail .gmail-all-left .gmail-description {
-		padding-bottom: 25px;
-		padding-top: 0;
-	}
-
-	.gmail .gmail-all-right .gmail-description {
-		padding-top: 25px;
-		padding-bottom: 0;
-	}
-
-	.gmail .gmail-business {
+	.gmail-business {
 		padding-top: 30px;
 		padding-bottom: 0px;
 	}
 
-	.gmail .gmail-business p {
+	.gmail-business p {
 		font-size: 13px;
 	}
 
-	.gmail .gmail-business-box button {
+	.gmail-business-box button {
 		font-size: 13px;
 	}
 
-	.gmail .gmail-business-box {
+	.gmail-business-box {
 		margin-bottom: 30px;
 	}
 
-	.gmail .download-area-left {
-		padding-top: 0;
-		padding-right: 0;
+	.banner-area {
+		padding-top: 40px;
+		padding-bottom: 40px;
 	}
-
-	.gmail .download-area-left p {
-    	font-size: 12px;
-    	line-height: 22px;
-    	padding-bottom: 10px;
-	}
-
-	.gmail .download-area-left button {
-		margin-bottom: 30px;
-		margin-top: 15px;
-		font-size: 13px;
-	}
-
-	.gmail .copyright {
-		padding: 0;
-	}
-
-	.gmail .copyright p {
-		font-size: 13px;
-	}
-
-	.gmail .download-area-left h2 {
-		font-size: 25px;
-	}
-
 }
 
 
@@ -964,41 +651,34 @@
 /*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px) {
 	.about-box {
-		margin-bottom: 5px;
+		margin-bottom: 20px;
+		border-right: none;
 	}
 
 	.team-box img {
 		width: 40%;
 	}
 
-	.about-description {
-		padding: 40px 0 0;
+	.sub-title {
+		margin-bottom: 30px;
 	}
 
-	.about-product-missions {
-		padding: 40px 0 0;
+	.about-btn {
+		padding: 15px 30px;
 	}
 
-	.about-project-details {
-		padding: 40px 0 0;
-	}
-
-	.about-project-details button {
-		margin: 20px 0;
-	}
-
-	.about-product-missions button {
-		margin: 20px 0;
+	.video-play-btn {
+		height: 0;
+		margin-bottom: 90px;
+		margin-top: 75px;
 	}
 
 	.copyright ul {
 		float: none;
 	}
 
-	/*#################blog-details@@@@@@@@@@@@@@@@@@@@@@@*/
-
 	.header-area {
-		padding-bottom: 0;
+		margin-bottom: 20px;
 	}
 
 	.blog-details-area p {
@@ -1027,50 +707,24 @@
 		color: white;
 	}
 
-	.video-container iframe {
-		width: 516px;
-	}
-
 	textarea {
 		width: 100%;
 	}
 
-	.blog-description {
-		padding-bottom: 30px;
-	}
-
 	.blog-right-description {
 		margin-top: 30px;
-		padding: 0;
+		padding: 0px 10px;
 	}
 
 	.blog-details .blog-description .comments-reply {
 		margin-bottom: -25px;
 	}
 
-	/*################################ blog-page ###################################*/
-
 	.blog-pages-text {
 		margin-top: -110px;
 	}
 
-	.blog-pages-text ul li {
-		margin: 0;
-	}
-
-	.blogpage-previous {
-		padding: 0;
-	}
-
-	.blogpage-previous button {
-		margin: 0;
-	}
-
-	.blogpage-next {
-		padding: 0;
-	}
-
-	.blogpage-next button {
+	.next-btn {
 		float: right;
 	}
 
@@ -1078,23 +732,12 @@
 		border: none;
 	}
 
-	/*######################################## cart-overview ######################################*/
-
 	.cart-overview {
 		padding-bottom: 30px;
 	}
 
 	.cart .header-menu {
 		margin: 0;
-	}
-
-	.cart-overview .header-banner h1 {
-		font-size: 25px;
-		padding-bottom: 10px;
-	}
-
-	.cart-overview .header-banner h4 {
-		font-size: 13px;
 	}
 
 	.cart-image {
@@ -1140,23 +783,12 @@
 
 	.product-description button {
 		margin: 20px 0;
-		padding: 7px 20px;
+		padding: 10px 20px;
 	}
 
-
-	/*############################ CHECKOUT-PAGES ####################################*/
-
-	.checkout-pages .shipping-address {
-		font-size: 13px;
+	.bdr-btn::before {
+		left: 40%;
 	}
-
-
-
-
-
-
-	/*######################################################### CONTACT ############################################*/
-
 
 	.helpline-left {
 		padding-right: 0;
@@ -1164,19 +796,6 @@
 
 	.helpline-left p {
     	padding-bottom: 5px;
-	}
-
-	.helpline-left label {
-		font-size: 12px;
-		padding-top: 10px;
-	}
-
-	.helpline-area textarea {
-		height: 50px;
-	}
-
-	.helpline-area button {
-		margin: 15px 0 0;
 	}
 
 	.helpline-right {
@@ -1188,14 +807,6 @@
 		padding-bottom: 5px;
 	}
 
-	.contact-map {
-		padding: 0 0 25px;
-	}
-
-
-	
-	/*########################################### PRICING-01 #######################################*/
-
 	.pricing01-offer {
 		margin-top: 15px;
 	}
@@ -1204,10 +815,6 @@
 		padding: 20px 25px;
 		font-size: 12px;
 	}
-
-
-	/*################################## PRICING-02 ##################################*/
-
 
 	.pricing02 .gmail-business {
 		padding-top: 30px;
@@ -1224,9 +831,6 @@
 		font-size: 13px;
 	}
 
-
-	/*####################################################### FAQ-01 #############################################*/
-
 	.faq01 .header-banner h1 {
 		font-size: 25px;
 		padding-bottom: 5px;
@@ -1241,28 +845,9 @@
 		padding-bottom: 0;
 	}
 
-	.accordion-item .accordion-header p {
-		font-size: 12px;
-	}
-
-	.accordion-item .accordion-header i {
-		font-size: 12px;
-	}
-
-	.mobile-app .mobile-app-developer .accordion-item .accordion-body p {
-		font-size: 12px;
-		padding-left: 40px;
-	}
-
-	.accordion-item .accordion-body p {
-		font-size: 12px;
-	}
-
 	.faq01 .accordion-button {
 		padding: 15px;
 	}
-
-	/*#############################################FAQ-02#########################################*/
 
 	.faq02 .header-banner h1 {
 		font-size: 22px;
@@ -1271,7 +856,6 @@
 	.faq02 .header-banner p {
 		font-size: 13px;
 	}
-
 
 	.faq02 .send-button button {
 		margin-bottom: 45px;
@@ -1286,126 +870,56 @@
 		margin-top: 40px;
 	}
 
+	.gmail-left-content {
+		text-align: left;
+	}	
 
-	/*########################## GMAIL ##################################*/
-
-	.gmail .get-gmail {
-		padding-top: 30px;
-		padding-bottom: 30px;
-	}
-
-	.gmail .get-gmail button {
-		padding: 8px 35px;
-	}
-
-	.gmail .gmail-all {
-		padding-top: 25px;
-		padding-bottom: 25px;
-	}
-
-	.gmail .gmail-description {
-		padding-top: 0;
-		padding-bottom: 15px;
-	}
-
-	.gmail .gmail-all-left {
-		padding: 0 5px;
-	}
-
-	.gmail .gmail-phone {
-		padding: 0 5px;
-	}
-
-	.gmail .gmail-all-right {
-		padding: 0 5px;
-	}
-
-	.gmail .gmail-description i {
-		font-size: 15px;
-		padding-bottom: 2px;
-	}
-
-	.gmail .gmail-description h2 {
-		font-size: 17px;
-		padding-bottom: 2px;
-	}
-
-	.gmail .gmail-description p {
-		font-size: 12px;
-	}
-
-	.gmail .gmail-business {
+	.gmail-business {
 		padding-top: 25px;
 		padding-bottom: 0px;
 	}
 
-
-	.gmail .gmail-business-box {
+	.gmail-business-box {
 		margin-bottom: 30px;
 	}
 
-	.gmail .gmail-business-box button {
+	.gmail-business-box button {
 		width: 50%;
 		font-size: 13px;
 	}
 
-	.gmail .gmail-business p {
+	.gmail-business p {
 		font-size: 12px;
 	}
-
-	.gmail .download-area-left {
-		padding: 0;
-	}
-
-	.gmail .download-area-left h2 {
-		font-size: 30px;
-	}
-
-	.gmail .download-area-left button {
-		padding: 10px 20px;
-		margin-top: 0;
-		margin-bottom: 30px;
-	}
-
-
-
-
-
-	/*##################################################### MOBILE - APP ########################*/
 
 	.gmail-menu {
 		padding-bottom: 0;
 	}
 
-	.mobile-app .gmail-menu .header-menu {
+	.gmail-menu .header-menu {
 		padding-top: 10px;
 	}
 
 	.gmail-head-left {
     	padding-top: 30px;
+		padding-bottom: 40px;
 	}
 
-	.mobile-app .gmail-head-right img {
-    	width: 70%;
-    	margin-top: 30px;
-    	float: none
-	}
-
-	.mobile-app .app-overview .overview-boxs {
+	.app-overview .overview-boxs {
 		margin-bottom: 5px;
 		padding: 30px 15px;
 	}
 
-	.mobile-app .app-overview .overview-boxs p {
+	.app-overview .overview-boxs p {
 		font-size: 12px;
 	}
 
-	.mobile-app-developer {
+	.mobile-app-accordion {
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
 
-	.mobile-app-developer img {
+	.mobile-app-accordion img {
 		width: 100%;
 	}
 
@@ -1413,30 +927,26 @@
 		margin-bottom: 20px;
 	}
 
-	.mobile-app .feedback-banner img {
+	.feedback-banner img {
 		width: 15%;
 	}
 
-	.mobile-app .pricing01-answer {
-		padding-right: 12px;
+	.header-left-contant {
+		padding-top: 0;
+		margin-bottom: 40px;
+	}
+
+	.screenshort-area img {
+		margin-bottom: 30px;
+	}
+
+	.accordion {
+		margin-bottom: 30px;
+	}
+
+	.banner-area {
+		padding-top: 40px;
 		padding-bottom: 40px;
-	}
-
-	.mobile-app .gmail-head-right {
-		text-align: center;
-	}
-
-
-
-
-	/*############################################### TRELLO #####################################*/
-
-
-
-	.gmail-head-right img {
-    	margin-left: 0;
-    	width: 100%;
-    	padding-top: 50px;
 	}
 
 	.trello-description {
@@ -1476,15 +986,9 @@
 		color: blue;
 	}
 
-
 	.trello .trello-information-right .accordion-body {
 		padding-left: 50px;
 	}
-
-
-
-	/*################################## 	SLACK #############################*/
-
 
 	.slack-heading {
 		padding: 40px 0;
@@ -1532,43 +1036,38 @@
 		padding: 30px 0 20px;
 	}
 
-
 	.slack-tool img {
     	height: 250px;
     	padding: 0;
 	}
 
-	.skype .skype-banner {
-		height: 1100px;
-	}
-
-	.skype .skype-content-right {
+	.skype-content-right {
 		padding-top: 40px;
 	}
 
-	.skype .progress-banner ul li i {
+	.progress-banner ul li i {
 		height: 40px;
 		width: 40px;
 		line-height: 40px;
 		font-size: 15px;
 	}
-	.skype .progress-banner {
+	.progress-banner {
 		padding-top: 20px;
 	}
 
-	.skype .progress-banner ul li {
-		width: 125px;
+	.progress-banner ul li {
+		width: 110px;
 	}
 
-	.skype .progress-banner ul li i:after {
+	.progress-banner ul li i:after {
 		top: 20px;
 	}
 
-	.skype .progress-banner ul li:first-child i:after {
+	.progress-banner ul li:first-child i:after {
 		left: 50px;
 	}
 
-	.skype .progress-banner ul li:last-child i:after {
+	.progress-banner ul li:last-child i:after {
 		width: 50px;
 	}
 
@@ -1605,28 +1104,18 @@
 
 /*// Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
+
+	.sub-title {
+		margin-bottom: 20px;
+	}
+
 	.about-box {
-		margin-bottom: 5px;
+		margin-bottom: 20px;
+		border-right: none;
 	}
 
-	.about-description {
-		padding: 40px 0 0;
-	}
-
-	.about-product-missions {
-		padding: 40px 0 0;
-	}
-
-	.about-project-details {
-		padding: 40px 0 0;
-	}
-
-	.about-project-details button {
-		margin: 20px 0;
-	}
-
-	.about-product-missions button {
-		margin: 20px 0;
+	.video-play-btn {
+		height: 0;
 	}
 
 	.team-box {
@@ -1634,15 +1123,8 @@
 		padding: 0;
 	}
 
-	/*######################################blog-datails############################*/
-
 	.header-area {
-		padding: 0;
-	}
-
-
-	.video-container iframe {
-		width: 697px;
+		margin-bottom: 40px;
 	}
 
 	.comments-view p {
@@ -1675,15 +1157,6 @@
 		width: 100%;
 	}
 
-	.blog-right-description {
-		margin-top: 30px;
-		padding: 0;
-	}
-
-	.customer-logo {
-		padding: 0;
-	}
-
 	.blog-details .blog-description .comments-reply {
 		margin-bottom: -20px;
 	}
@@ -1693,8 +1166,10 @@
 		padding-top: 30px;
 	}
 
-
-	/*##################################blog-pages#####################################*/
+	.blog-pages-text a i {
+		font-size: 12px;
+		margin-left: 5px;
+	}
 
 	.blog-right-description {
 		padding-left: 35px;
@@ -1712,19 +1187,8 @@
 		margin-left: -50px;
 	}
 
-	/*########################################cart-overview######################################*/
-
 	.cart-overview {
 		padding-bottom: 30px;
-	}
-
-	.cart-overview .header-banner h1 {
-		padding-bottom: 10px;
-		font-size: 28px;
-	}
-
-	.cart-overview .header-banner h4 {
-		font-size: 14px;
 	}
 
 	.cart-image img {
@@ -1753,28 +1217,12 @@
 		line-height: 25px;
 	}
 
-
-	/*################################## CONTACT #################################################*/
-
 	.helpline-left {
 		padding-right: 0;
 	}
 
 	.helpline-left p {
     	padding-bottom: 5px;
-	}
-
-	.helpline-left label {
-		font-size: 12px;
-		padding-top: 10px;
-	}
-
-	.helpline-area textarea {
-		height: 50px;
-	}
-
-	.helpline-area .accordion button {
-		margin: 10px 0 0;
 	}
 
 	.helpline-right {
@@ -1786,38 +1234,9 @@
 		padding-bottom: 5px;
 	}
 
-	.contact-map {
-		padding: 0 0 25px;
-	}
-
-	/*####################################### PRICING-01 ####################################*/
-
-
-
-	.pricing01-select-button {
-    	margin: 70px 0 30px;
-	}
-
-
-	.pricing01-select-button button {
-		padding: 8px 20px;
-		font-size: 12px;
-	}
-
-	.pricing01-offer p {
-		font-size: 12px;
-	}
-
-	.pricing01-details-button button {
-    	padding: 5px 15px;
-    	font-size: 12px;
-	}
-
 	.header-menu {
 		float: right;
 	}
-
-	/*######################################################### FAQ-01 #############################################*/
 
 	.faq01-general {
 		padding-bottom: 0;
@@ -1827,8 +1246,6 @@
 	.faq01 .header-banner h1 {
 		font-size: 30px;
 	}
-
-	/*################################################ FAQ-02 ####################################*/
 
 	.faq02 .header-banner h1 {
 		font-size: 30px;
@@ -1846,127 +1263,79 @@
 		color: blue;
 	}
 
-	/*########################################## GMAIL ####################################*/
-
-	.gmail .gmail-head-left {
+	.gmail-left-content {
+		text-align: left;
+	}
+	
+	.gmail-head-left {
 		padding-top: 0;
+		margin-bottom: 50px;
 	}
 
-	.gmail .gmail-head-left h2 {
-		font-size: 25px;
-	}
-
-	.gmail .gmail-head-left p {
-		font-size: 13px;
-	}
-
-	.gmail .get-gmail {
+	.get-gmail {
 		padding-top: 25px;
 		padding-bottom: 25px;
 	}
 
-	.gmail .gmail-all-left {
+	.gmail-all-left {
 		padding: 0;
 		padding-right: 15px;
 	}
 
-	.gmail .gmail-all-right {
+	.gmail-all-right {
 		padding: 0;
 		padding-left: 15px;
 	}
 
-	.gmail .gmail-phone {
-		padding: 0;
-	}
-
-	.gmail .gmail-description h2 {
-		font-size: 22px;
-	}
-
-	.gmail .gmail-description p {
-		font-size: 13px;
-	}
-
-
-	.gmail .gmail-description i {
-		font-size: 20px;
-	}
-
-	.gmail .gmail-description {
-		padding: 10px 0;
-	}
-
-	.gmail .gmail-business {
+	.gmail-business {
 		padding-top: 25px;
 		padding-bottom: 25px;
 	}
 
-	.gmail .download-area-left {
+	.gmail-business-box {
+		margin-bottom: 30px;
+	}
+
+	.download-left-content {
 		padding-top: 0;
 		padding-right: 0;
+		margin-bottom: 30px;
 	}
 
-	.gmail .download-area-left h2 {
-		font-size: 30px;
-	}
-
-	.gmail .download-area-left p {
-    	font-size: 11px;
-    	line-height: 22px;
-    	padding-bottom: 15px;
-	}
-
-	.gmail .download-area-left button {
-		margin-top: 0;
-		font-size: 12px;
-	}
-
-	.gmail .copyright {
-		padding: 0;
-	}
-
-	.gmail .copyright p {
-		font-size: 12px;
-	}
-
-
-	/*######################################### MOBILE APP ################################################*/
-
-
-	.mobile-app .gmail-menu .header-menu {
+	.gmail-menu .header-menu {
 		padding-top: 10px;
 	}
 
-	.mobile-app .gmail-head-right img {
-		width: 100%;
-	}
-
-	.mobile-app .our-app {
+	.our-app {
 		padding: 40px 0;
 	}
 
-	.mobile-app .app-overview {
+	.app-overview {
 		padding: 40px 0;
 	}
 
-	.mobile-app .app-overview .overview-boxs {
+	.app-overview .overview-boxs {
 		margin-bottom: 20px;
 		padding: 35px 20px;
 	}
 
-	.mobile-app-developer {
+	.mobile-app-accordion {
 		padding: 40px 0;
 	}
 
-	.mobile-app-developer img {
+	.mobile-app-accordion img {
 		width: 100%;
 	}
 
-	.mobile-app .app-screenshort {
+	.faq02-banner .accordion {
+		margin-bottom: 40px;
+	}
+
+	.app-screenshort {
 		padding: 40px 0;
 	}
 
-	.mobile-app .flt-lft {
+	.flt-lft {
 	    position: absolute;
 	    margin-top: 28%;
 	    margin-left: 45px;
@@ -1976,8 +1345,7 @@
 	    font-size: 22px;
 	}
 
-
-	.mobile-app .flt-rt {
+	.flt-rt {
 	    position: relative;
 	    float: right;
 	    margin-right: 45px;
@@ -1988,39 +1356,32 @@
 	    font-size: 22px;
 	}
 
-
-	.mobile-app .mobile-app-feedback {
+	.mobile-app-feedback {
 		padding: 40px 0;
 	}
 
-	.mobile-app .pricing01-answer {
+	.pricing01-answer {
 		padding: 10px;
 		padding-bottom: 30px;
 	}
 
-	.mobile-app .mobile-app-developer .accordion-item .accordion-body p {
-		padding-left: 40px;
+	.mobile-app-accordion .accordion-body {
+		margin-left: 55px;
+		margin-bottom: 50px;
+		padding-bottom: 20px;
 	}
 
+	.header-left-contant {
+		padding-top: 30px;
+	}
 
-	/*################################## TRELLO #######################################*/
+	.pricing02 .started-btn {
+		padding: 5px !important;
+		width: 125px;
+	}
 
 	.trello .gmail-head-left {
 		padding-top: 0;
-	}
-
-	.trello .gmail-head-left h2 {
-		font-size: 25px;
-	}
-
-	.gmail-head-right img {
-    	margin-left: 0;
-    	width: 120%;
-	}
-
-	.gmail-head-left button {
-		font-size: 12px;
-		margin-top: 20px;
 	}
 
 	.trello-description {
@@ -2059,10 +1420,6 @@
 		padding: 30px 0;
 	}
 
-	.trello-information-right {
-		padding-top: 25px;
-	}
-
 	.information-video {
 		width: 100%;
 	}
@@ -2072,15 +1429,9 @@
 		padding-top: 5px;
 	}
 
-
 	.trello .trello-information-right .accordion-body {
 		padding-left: 55px;
 	}
-
-
-
-
-	/*############################ SLACK #####################################*/
 
 	.slack .navbar-toggler span i {
 		padding: 8px 0;
@@ -2176,10 +1527,6 @@
 		font-size: 12px;
 	}
 
-
-	/*#################################### SKYPE #####################################*/
-
-
 	.skype-heading i {
 		font-size: 25px;
 		padding-top: 5px;
@@ -2190,48 +1537,40 @@
 		padding-top: 30px;
 	}
 
-	.skype-content button {
+	.skype .started-btn {
+		padding: 10px;
 		width: 40%;
-		font-size: 12px;
+		font-size: 14px;
 	}
 
-	.skype-banner {
-		height: 500px;
-	}
-
-	.skype-download-area .padding-rt {
-		padding-right: 0;
-	}
-
-	.skype-download-area .padding-rt h2 {
-		font-size: 25px;
+	.progress-banner ul li:first-child i:after {
+		left: 50px;
 	}
 
 	.skype-download-area {
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
-
-	.skype-download-area button {
-		margin-top: 0;
-	}
-
-
 }
 
 
 /*###################################################################################################################################################################################################*/
 	
 
-
 /*// Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1199.98px){
 	
+	.sub-title {
+		margin-bottom: 20px;
+	}
+
+	.header-subtitle {
+		margin-bottom: 20px;
+	}
 
 	.header-menu {
 		float: right;
 	}
-
 
 	.project-right img {
 		margin-left: 60px;
@@ -2239,18 +1578,6 @@
 
 	.project-left img {
 		margin-left: -60px;
-	}
-
-	.about-box {
-		padding: 10px;
-	}
-
-	.about-project-details button {
-		margin: 20px 0 0;
-	}
-
-	.about-product-missions button {
-		margin: 20px 0 0;
 	}
 
 	.about-choose-us {
@@ -2262,14 +1589,12 @@
 		padding: 10px;
 	}
 
-	/*################################## blog-details #########################*/
-
 	.header-area {
-		padding-bottom: 0;
+		margin-bottom: 50px;
 	}
 
-	.video-container iframe {
-		width: 563px;
+	.video-play-btn {
+		height: 0;
 	}
 
 	.blog-details .blog-right-description {
@@ -2285,25 +1610,13 @@
 		width: 100%;
 	}
 
-	.customer-logo {
-		padding: 0;
-	}
-
 	.copyright .header-menu {
 		float: right;
 	}
 
-	/*######################################## blog-pages ####################################*/
-
-
 	.blog-pages .blog-right-description {
 		padding-left: 45px;
 	}
-
-
-
-	/*######################################## cart-overview ######################################*/
-
 
 	.cart-overview .header-menu {
 		float: right;
@@ -2339,8 +1652,9 @@
 		line-height: 22px;
 	}
 
-
-	/*################################################ CONTACT ###################################*/
+	.bdr-btn::before {
+		left: 43%;
+	}
 
 	.helpline-left {
     	padding-right: 30px;
@@ -2364,38 +1678,17 @@
     	font-size: 25px;
 	}
 
-	.helpline-area textarea {
-		height: 60px;
-	}
-
-	.helpline-area button {
-		margin-top: 10px;
-	}
-
-	.contact-map {
-		padding: 0 0 25px;
-	}
-
 	.faq01-general {
 		padding-bottom: 0px;
 		margin-bottom: 0px;
 		border-bottom: none;
 	}
 
-
-
-
-	/*#################################### FAQ-01 ################################*/
-
 	.faq01 .header-banner h1 {
 		padding-bottom: 7px;
 		padding-top: 30px;
 		font-size: 30px;
 	}
-
-
-
-	/*############################################### FAQ-02 ###########################################*/
 
 	.faq02 .header-banner h1 {
 		font-size: 30px;
@@ -2408,7 +1701,6 @@
 	}
 
 	.faq02 .pricing01-answer {
-		/*padding-right: 30px;*/
 		font-size: 12px;
 	}
 
@@ -2436,69 +1728,55 @@
 		font-size: 11px;
 	}
 
-
-
-	/*################################# GMAIL #######################################*/
-
-
-	.gmail .get-gmail {
+	.get-gmail {
 		padding-top: 25px;
 		padding-bottom: 25px;
 	}
 
-	.gmail .gmail-all {
+	.gmail-all {
 		padding-top: 25px;
 		padding-bottom: 25px;
 	}
 
-	.gmail .gmail-all-left {
+	.gmail-all-left {
 		padding: 0;
 		padding-right: 20px;
 	}
 
-	.gmail .gmail-all-right {
+	.gmail-all-right {
 		padding: 0;
 		padding-left: 20px;
 	}
 
-	.gmail .gmail-phone {
+	.gmail-phone {
 		padding: 30px;
 		padding-top: 0;
 	}
 
-	.gmail .gmail-description {
-		padding-bottom: 0;
+	.gmail-head-right img {
+		margin-left: 0;
 	}
 
-	.gmail .gmail-business {
+	.gmail-business {
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
 
-	.gmail .download-area-left {
+	.gmail-business-box {
+		margin-bottom: 30px;
+	}
+
+	.download-left-content {
 		padding-top: 0;
 		padding-right: 0;
 	}
 
-	.gmail .download-area-left h2 {
-		font-size: 35px;
-	}
-
-	.gmail .download-area-left button {
-		margin-top: 5px;
-	}
-
-
-
-	/*################################## MOBILE APP ###############################################*/
-
-
-	.mobile-app-developer img {
+	.mobile-app-accordion img {
      	width: 100%; 
     	padding-right: 50px;
 	}
 
-	.mobile-app .flt-lft {
+	.flt-lft {
     	margin-top: 28%;
     	margin-left: 65px;
     	height: 35px;
@@ -2507,7 +1785,7 @@
     	font-size: 20px;
 	}
 
-	.mobile-app .flt-rt {
+	.flt-rt {
 		margin-right: 64px;
 		height: 35px;
 		width: 35px;
@@ -2515,38 +1793,29 @@
 		font-size: 20px;
 	}
 
-	.mobile-app .mobile-app-feedback .flt-lft {
+	.mobile-app-feedback .flt-lft {
     	margin-top: 155px;
     	margin-left: -60px;
     }
 
-    .mobile-app .mobile-app-feedback .flt-rt {
+    .mobile-app-feedback .flt-rt {
     	margin-top: -130px;
     }
 
-    .mobile-app .feedback-banner img {
+    .feedback-banner img {
  	   width: 14%;
 	}
 
-	.mobile-app .faq02-answer p {
+	.faq02-answer p {
 		line-height: 22px;
 	}
-
-
-	/*############################################ TRELLO ##################################*/
 
 	.gmail-head-left {
     	padding-top: 20px;
 	}
 
-	.gmail-head-right img {
-   		margin-left: 0; 
-    	width: 120%;
-	}
-
 	.trello-team-work img {
-    	width: 140%;
-    	margin-left: -200px;
+    	margin-left: 0px;
 	}
 
 	.team-work-right {
@@ -2565,9 +1834,6 @@
 	.trello .trello-information-right .accordion-body {
 		padding-left: 55px;
 	}
-
-
-	/*#################################### SLACK #################################*/
 
 	.slack .slack-btn button {
 		float: right;
@@ -2653,13 +1919,9 @@
 		font-size: 12px;
 	}
 
-	.slack .mobile-app-developer {
+	.slack .mobile-app-accordion {
 		padding-top: 35px;
 	}
-
-
-	/*########################################## SKYPE ###############################*/
-
 
 	.skype-content-right {
 		padding: 0;
@@ -2671,10 +1933,6 @@
 		margin-top: 30px;
 	}
 
-	.skype-banner {
-		height: 675px;
-	}
-
 	.progress-banner {
 		padding-top: 20px;
 	}
@@ -2684,65 +1942,27 @@
 		padding-bottom: 40px;
 	}
 
-	.skype-download-area .padding-rt {
-		padding-right: 0;
-		padding-top: 20px;
-	}
-
-	.skype-download-area h2 {
-		font-size: 33px;
-	}
-
-	.skype-download-area button {
-		margin-top: 0;
-		font-size: 13px;
-	}
-
-	.mobile-app-developer {
+	.mobile-app-accordion {
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
 
-	.accordion-item .accordion-header p {
-		font-size: 14px;
+	.mobile-app-accordion .accordion-item .accordion-body p {
+		padding-left: 10px;
 	}
 
-	.mobile-app .mobile-app-developer .accordion-item .accordion-body p {
-		font-size: 14px;
-		padding-left: 40px;
+	.progress-banner ul li:first-child i:after {
+		left: 50px;
 	}
-
 }
 
 
+/* ############################################################################################################ */
 
 /*// Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
-	.header-menu {
-		float: right;
-	}
-
+@media (min-width: 1200px) and (max-width: 1400px) {
 	.about-team Img {
 		margin-top: -70px;
-	}
-
-	.project-left img {
-		margin-left: -80px;
-	}
-
-	.project-right img {
-		margin-left: 80px;
-	}
-
-	.team-box {
-		padding: 0;
-		margin: 0 10px;
-	}
-
-	/*#################################### blog-details ################################*/
-
-	.video-container iframe {
-		width: 617px;
 	}
 
 	textarea {
@@ -2752,9 +1972,6 @@
 	.blog-details .blog-right-description {
     	padding-left: 45px;
 	}
-
-
-	/*######################################## cart-overview ######################################*/
 
 	.cart-overview .navbar-nav li i {
 		font-size: 16px;
@@ -2786,21 +2003,6 @@
 		margin-bottom: 40px;
 	}
 
-
-	/*################################## CONTACT ##############################*/
-
-	.contact .accordion button {
-		margin-top: 10px;
-	}
-
-
-
-	/*######################################### FAQ-02 #########################################*/
-
-	/*.faq02 .pricing01-answer {
-		padding-right: 40px;
-	}*/
-
 	.faq02 .pricing01-answer-sheet {
 		margin-bottom: 0;
 	}
@@ -2825,36 +2027,23 @@
 		font-size: 13px;
 	}
 
-	/*######################################## GMAIL ##########################*/
-
-
-
-
-
-
-	/*##########################################3 MOBILE APP ##########################################*/
-
-
-	.mobile-app .flt-lft {
+	.flt-lft {
     	margin-left: 70px;
     	margin-top: 25%;
 	}
 
-	.mobile-app .flt-rt {
+	.flt-rt {
 		margin-right: 70px;
 	}
 
-	.mobile-app .mobile-app-feedback .flt-lft {
+	.mobile-app-feedback .flt-lft {
     	margin-top: 155px;
     	margin-left: -60px;
     }
 
-    .mobile-app .mobile-app-feedback .flt-rt {
+    .mobile-app-feedback .flt-rt {
     	margin-top: -130px;
     }
-
-
-    /*################################## SLACK ############################################*/
 
     .slack .team-content {
     	padding-top: 0;
@@ -2873,17 +2062,6 @@
     	padding-bottom: 0;
     }
 
-
-
-
-    /*############################################ TRELLO ####################################*/
-
-
-    .trello .gmail-head-right img {
-    	margin-left: 0;
-    }
-
-
     .slack .timeline-content {
     	margin-left: 40px;
     	padding: 18px 0 0 18px;
@@ -2892,16 +2070,6 @@
 	.slack-tool img {
 		padding: 0;
 	}
-
-	/*.trello .trello-information-right .accordion-body {
-		padding-left: 55px;
-	}*/
-
-
-
-	/*#################################### SKYPE ######################################*/
-
-
 
 	.skype-heading h2 {
 		font-size: 40px;
@@ -2922,26 +2090,15 @@
 		line-height: 35px;
 	}
 
-	.accordion-item .accordion-header p {
-		font-size: 15px;
+	.mobile-app-accordion .accordion-item .accordion-body p {
+		padding-left: 10px;
 	}
 
-	.mobile-app-developer .accordion-item .accordion-body p {
-		font-size: 13px;
-		margin-left: 40px;
+	.progress-banner ul li:first-child i:after {
+		left: 50px;
 	}
 
-	.trello .mobile-app-developer .accordion-item .accordion-body p {
-		font-size: 13px;
-		margin-left: 45px;
-	}
-
-
-	.mobile-app .mobile-app-developer .accordion {
-		padding-top: 70px;
-	}
-
-	.mobile-app .mobile-app-developer .accordion-body {
-		padding-top: 0;
+	.trello-team-work img {
+		margin-left: 0;
 	}
 }

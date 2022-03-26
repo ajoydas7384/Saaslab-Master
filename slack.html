@@ -4,19 +4,24 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Slack</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/fontawesome">
-	<link rel="stylesheet" href="css/all.css">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic:ital,wght@0,400;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body class="slack">
-	<div class="slack-area">
+	<section class="slack-area">
 		<div class="container">
 			<div class="row slack-heading">
 				<div class="col-4">
-					<h2>Slack</h2>
+					<a href="index.html" class="text-white title">Slack</a>
 				</div>
 
 				<div class="col-8 col-md-5 col-xl-6 slack-menu-bar">
@@ -35,15 +40,15 @@
 					</nav>
 				</div>
 
-				<div class="col-2 col-md-3 d-none d-md-block slack-btn col-xl-2">
-					<button>GET STARTED</button>
+				<div class="col-2 col-md-3 d-none d-md-block col-xl-2">
+					<button class="sign-up-btn">GET STARTED</button>
 				</div>
 			</div>
 
 			<div class="row slack-banner">
 				<div class="col-12 col-lg-8 offset-lg-2">
-					<h2>Where Work Happiness</h2>
-					<p>Whatever work means for you, Slack brings all the pieces and people you need together so you can actually get things done!</p>
+					<h2 class="header-title">Where Work Happiness</h2>
+					<p class="sub-title text-white">Whatever work means for you, Slack brings all the pieces and people you need together so you can actually get things done!</p>
 					<button>FIND YOUR TEAM</button>
 				</div>
 			</div>
@@ -61,34 +66,31 @@
 			</div>
 		</div>
 
-		
-		<div class="container-fluied">
-			<div class="slack-slider">
-				<ul>
-					<li><i class="fas fa-circle active"></i></li>
-					<li><i class="fas fa-circle"></i></li>
-					<li><i class="fas fa-circle"></i></li>
-				</ul>
-			</div>
+		<div class="slack-slider">
+			<ul>
+				<li><i class="fas fa-circle"></i></li>
+				<li><i class="fas fa-circle"></i></li>
+				<li><i class="fas fa-circle"></i></li>
+			</ul>
 		</div>
-	</div>
+	</section>
 
 
-	<div class="container slack-team-communication">
+	<section class="container slack-team-communication">
 		<div class="row">
 			<div class="col-12 col-md-5">
-				<img src="images/laptop.png" alt="">
+				<img src="images/macbook.png" alt="">
 			</div>
 
 			<div class="col-12 col-md-7 team-content">
-				<h2>Slack Team Communication</h2>
+				<h2 class="header-subtitle mb-2">Slack Team Communication</h2>
 
-				<section class="timeline-section">
+				<div class="timeline-section">
 					<div class="timeline-items">
 						<div class="timeline-item">
 							<div class="timeline-number">1</div>
 							<div class="timeline-content">
-								<h4>Channels</h4>
+								<h4 class="banner-subtitle text-dark" style="font-weight: 600; margin-bottom: 10px;">Channels</h4>
 								<p>Organize your team conversations in open channels</p>
 							</div>
 						</div>
@@ -96,7 +98,7 @@
 						<div class="timeline-item">
 							<div class="timeline-number">2</div>
 							<div class="timeline-content">
-								<h4>Direct Message</h4>
+								<h4 class="banner-subtitle text-dark" style="font-weight: 600; margin-bottom: 10px;">Direct Message</h4>
 								<p>Send messages directly to another person or to a small group of people for more focused conversations.</p>
 							</div>
 						</div>
@@ -104,25 +106,24 @@
 						<div class="timeline-item">
 							<div class="timeline-number">3</div>
 							<div class="timeline-content">
-								<h4>Calls</h4>
+								<h4 class="banner-subtitle text-dark" style="font-weight: 600; margin-bottom: 10px;">Calls</h4>
 								<p>Take a conversation from typing to face-to-face by starting a Slack voice or video call in any Channel or Direct Message. From there, you're one click away from sharing your screen, so everyone can follow along.</p>
 							</div>
 						</div>
 					</div>
-				</section>
+				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
 
-	<div class="slack-app">
+	<section class="slack-app">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 col-lg-8 offset-lg-2">
-					<h2>Everywhere you go.</h2>
-					<p>With fully native apps for iOS and Android, whatever you do on one device is reflected everywhere. Everything is in sync. We’ll keep your place so you can always pick up wherever you left off.</p>
+					<h2 class="header-subtitle">Everywhere you go.</h2>
+					<p class="dub-title">With fully native apps for iOS and Android, whatever you do on one device is reflected everywhere. Everything is in sync. We’ll keep your place so you can always pick up wherever you left off.</p>
 					<button>SEE ALL APPS</button>
-					
 				</div>
 			</div>
 
@@ -133,23 +134,22 @@
 			</div>
 
 			<div class="col-12 col-lg-8 offset-lg-2">
-				<p>Customize your notifications whether you’re on your computer or mobile device. Dial them up to be alerted about everything or dial them down to focus on just a few things.</p>
+				<p class="sub-title text-white">Customize your notifications whether you’re on your computer or mobile device. Dial them up to be alerted about everything or dial them down to focus on just a few things.</p>
 			</div>
 		</div>
-	</div>
+	</section>
 
-
-	<div class="container slack-tool">
+	<section class="container slack-tool">
 		<div class="row">
 			<div class="col-12 col-md-7">
-				<h2>All your tools in one place</h2>
+				<h2 class="header-subtitle mb-2">All your tools in one place</h2>
 
-				<section class="timeline-section">
+				<div class="timeline-section">
 					<div class="timeline-items">
 						<div class="timeline-item">
 							<div class="timeline-number">1</div>
 							<div class="timeline-content">
-								<h4>Share your activity</h4>
+								<h4 class="banner-subtitle text-dark" style="font-weight: 600; margin-bottom: 10px;">Share your activity</h4>
 								<p>Post your feelong or activity on your channels circles.</p>
 							</div>
 						</div>
@@ -157,7 +157,7 @@
 						<div class="timeline-item">
 							<div class="timeline-number">2</div>
 							<div class="timeline-content">
-								<h4>Stay in sync, wherever you go</h4>
+								<h4 class="banner-subtitle text-dark" style="font-weight: 600; margin-bottom: 10px;">Stay in sync, wherever you go</h4>
 								<p>Keep up with your team with our apps for iPhone, Android and Windows Phone. </p>
 							</div>
 						</div>
@@ -165,27 +165,27 @@
 						<div class="timeline-item">
 							<div class="timeline-number">3</div>
 							<div class="timeline-content">
-								<h4>Stay with your team</h4>
+								<h4 class="banner-subtitle text-dark" style="font-weight: 600; margin-bottom: 10px;">Stay with your team</h4>
 								<p>In Slack, everything happens on a team. A Slack team is simply a group of people using Slack together – like your company or organization.</p>
 							</div>
 						</div>
 					</div>
-				</section>
+				</div>
 			</div>
 
 			<div class="col-12 col-md-5">
 				<img src="images/Product_Page.png" alt="">
 			</div>
 		</div>
-	</div>
+	</section>
 
 
-	<div class="gmail-business">
+	<section class="gmail-business">
 		<div class="container">
 			<div class="row gmail-business-head">
 				<div class="col-12 col-md-8 offset-md-2">
-					<h2>Slack Pricing</h2>
-					<p>Slack for Teams is a single workspace for your small- to medium-sized company or team. Choose packej which one you need...</p>
+					<h2 class="header-subtitle">Slack Pricing</h2>
+					<p class="sub-title text-white">Slack for Teams is a single workspace for your small- to medium-sized company or team. Choose packej which one you need...</p>
 				</div>
 			</div>
 
@@ -208,7 +208,7 @@
 						<p class="bg-light">24/7 Support</p>
 						<p>Broswer Extension</p>
 						<p class="bg-light">Cloude Service</p>
-						<button>CREATE TEAM</button>
+						<button class="started-btn">CREATE TEAM</button>
 					</div>
 				</div>
 
@@ -230,7 +230,7 @@
 						<p class="bg-light">24/7 Support</p>
 						<p>Broswer Extension</p>
 						<p class="bg-light">Cloude Service</p>
-						<button>BUY NOW</button>
+						<button class="started-btn">BUY NOW</button>
 					</div>
 				</div>
 
@@ -252,24 +252,23 @@
 						<p class="bg-light">24/7 Support</p>
 						<p>Broswer Extension</p>
 						<p class="bg-light">Cloude Service</p>
-						<button>BUY NOW</button>
+						<button class="started-btn">BUY NOW</button>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
-	<div class="container">
+	<section class="container text-center pt-5">
 		<div class="row pricing01-faq">
 			<div class="col-12 col-sm-10 offset-sm-1 col-lg-10 offset-lg-1 col-xl-8 offset-xl-2">
-				<h2>Slack</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et  consectetur adipisicing eiusmod dolore magna aliqua. </p>
+				<h2 class="header-subtitle">Slack</h2>
+				<p class="sub-title">Lorem ipsum dolor sit amet, consectetur adipisicing eiusmod tempor incididunt ut labore et  consectetur adipisicing eiusmod dolore magna aliqua. </p>
 			</div>
 		</div>
-	</div>
+	</section>
 
-
-	<div class="container mobile-app-developer">
+	<section class="container mobile-app-developer pb-5">
 		<div class="row">
 			<div class="col-12 col-lg-10 offset-lg-1 pricing01-answer">
 				<div class="accordion pricing01-answer-sheet"  id="accordionExample">
@@ -287,7 +286,6 @@
 						 </div>
 					</div>
 			
-
 					<div class="accordion-item">
 						<h2 class="accordion-header" id="headingTwo">
 						   <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
@@ -301,7 +299,6 @@
 						    </div>
 						</div>
 					</div>
-
 				
 				   <div class="accordion-item">
 						<h2 class="accordion-header" id="headingThree">
@@ -316,7 +313,6 @@
 						    </div>
 						</div>
 					</div>
-
 				
 				   <div class="accordion-item">
 						<h2 class="accordion-header" id="headingFour">
@@ -331,7 +327,6 @@
 					    	</div>
 					  	</div>
 					</div>
-
 				
 				   <div class="accordion-item">
 						<h2 class="accordion-header" id="headingFive">
@@ -346,7 +341,6 @@
 					    	</div>
 					  	</div>
 					</div>
-
 				
 				   <div class="accordion-item">
 						<h2 class="accordion-header" id="headingSix">
@@ -364,10 +358,10 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</section>
 
 
-	<div class="copyright">
+	<section class="copyright">
 		<div class="container">
 			<div class="row">
 				<div class="col-8 col-md-6 copyright-border">
@@ -393,7 +387,9 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<script type="text/javascript" src="js/bootstrap.js"></script>
+	</section>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
